@@ -4,4 +4,12 @@
         <item quantity="other">Загружено записей: %d</item>
         <item quantity="one">Загружено записей: %d</item>
     </plurals>
+    <plurals name="local_records_count">
+        <item quantity="other">Записей: %d</item>
+        <item quantity="one">Записей: %d</item>
+    </plurals>
+    <plurals name="unsynced_records_count">
+        <item quantity="other">Записей не синхронизировано: %d</item>
+        <item quantity="one">Записей не синхронизировано: %d</item>
+    </plurals>
 </resources>

@@ -4,6 +4,18 @@
         <item quantity="other">Найдено треков: %d</item>
         <item quantity="one">Найдено треков: %d</item>
     </plurals>
+    <plurals name="Nalert_msg_vip_songs_for_download_upgrade">
+        <item quantity="other">Вы можете загрузить %d премиум треков в этом месяце</item>
+        <item quantity="one">Вы можете загрузить %d премиум трек в этом месяце</item>
+        <item quantity="few">Вы можете загрузить %d премиум трека в этом месяце</item>
+        <item quantity="many">Вы можете загрузить %d премиум треков в этом месяце</item>
+    </plurals>
+    <plurals name="Nalert_msg_vip_songs_for_download_limited">
+        <item quantity="other">Вы можете загрузить %d премиум треков в этом месяце. Загрузить?</item>
+        <item quantity="one">Вы можете загрузить %d премиум трек в этом месяце. Загрузить?</item>
+        <item quantity="few">Вы можете загрузить %d премиум трека в этом месяце. Загрузить?</item>
+        <item quantity="many">Вы можете загрузить %d премиум треков в этом месяце. Загрузить?</item>
+    </plurals>
     <plurals name="Nexpired_remind">
         <item quantity="other">Осталось %d дн.</item>
         <item quantity="one">Осталось %d дн.</item>

@@ -370,6 +370,7 @@
     <string name="theme_provision_loading_tips">Загрузка…</string>
     <string name="theme_provision_title">Выберите тему</string>
     <string name="theme_provision_default_theme_title">По умолчанию</string>
+    <string name="theme_provision_oper_button_next">Далее</string>
     <string name="theme_precast_create_notification_title">Темы MIUI 7 обновлены</string>
     <string name="theme_precast_create_notification_content">Нажмите для просмотра</string>
     <string name="theme_precast_update_notification_title">Обновление тем MIUI 7</string>
@@ -381,7 +382,7 @@
     <string name="resource_tip_select_ringtone">Мелодия не выбрана</string>
     <string name="theme_batch_has_update_text">Обновление: %1$d</string>
     <string name="resource_unable_to_access">Содержимое, которое вы ищите, недоступно в вашей стране.</string>
+    <string name="resource_download_notification_content">Нажмите для проверки</string>
     <string name="resource_select_ringtone_confirm">Установить эту мелодию?</string>
     <string name="resource_select_ringtone_confirm_picker">Установить мелодию?</string>
-    <string name="resource_download_notification_content">Нажмите для проверки</string>
 </resources>

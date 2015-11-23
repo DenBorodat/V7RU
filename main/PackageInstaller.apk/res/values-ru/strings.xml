@@ -46,12 +46,26 @@
     <string name="virus_scan_clear">Удалить</string>
     <string name="virus_scan_caller_unknown">Неизвестно</string>
     <string name="lift_ban_once">Разрешить сейчас</string>
-    <string name="dlg_appstore_notice">Загрузите приложение из официального &lt;u>&lt;font color=#91c727>маркета&lt;/font>&lt;/u></string>
-    <string name="app_store_missing_title">Mi-Маркет отсутствует</string>
+    <string name="dlg_appstore_notice">Загрузите приложение из официального &lt;u>&lt;font color=#91c727>App Store&lt;/font>&lt;/u></string>
+    <string name="app_store_missing_title">App Store отсутствует</string>
     <string name="reboot_time">Подготовка к перезагрузке…(%1$s)</string>
-    <string name="app_store_missing_message">Mi-Маркет не установлен на вашем устройстве. Мы рекомендуем установить его немедленно.</string>
+    <string name="app_store_missing_message">App Store не установлен на вашем устройстве. Мы рекомендуем установить его немедленно.</string>
     <string name="app_store_install_hint">Установить</string>
-    <string name="app_store_installing_message">Установка Mi-Маркета…</string>
+    <string name="app_store_installing_message">Установка App Store…</string>
+    <string name="btn_text_security_install">Заменить на безопасную версию</string>
+    <string name="btn_text_install_new_version">Новая версия</string>
+    <string name="btn_text_install_origin">Установленная версия</string>
+    <string name="btn_text_install_security_version_in_appstore">Заменить на безопасную версию</string>
+    <string name="btn_text_scaning">Сканирование…</string>
+    <string name="btn_text_security_scan">Сканер безопасности</string>
+    <string name="message_security_scaning">Сканирование…</string>
+    <string name="message_apk_checking">Проверка APK…</string>
+    <string name="message_install_in_market">Рекомендуется устанавливать приложение из App Store</string>
+    <string name="message_appstore_verify_has_new_version">Установить новую версию приложения из App Store?</string>
+    <string name="message_appstore_verify_inconsistent">Подписи приложений отличается. Вы можете установить это приложение прямо из App Store.</string>
+    <string name="message_appstore_verify_ok">Это приложение прошло полную проверку безопасности в App Store</string>
+    <string name="install_from_appstore_hint">Рекомендуется установить приложение из &lt;u>&lt;font color=#91c727>App Store&lt;/font>&lt;/u></string>
+    <string name="waiting_tip">Загрузка…</string>
     <string name="app_name">Установка приложений</string>
     <string name="install">Установить</string>
     <string name="done">Готово</string>
@@ -72,7 +86,7 @@
     <string name="install_failed_msg">Не удалось установить приложение \"%1$s\"</string>
     <string name="launch">Открыть</string>
     <string name="unknown_apps_dlg_title">Установка заблокирована</string>
-    <string name="unknown_apps_dlg_text">Для обеспечения безопасности на устройстве заблокирована установка приложений, которые были загружены из неофициальных истончиков.</string>
+    <string name="unknown_apps_dlg_text">Для обеспечения безопасности на устройстве заблокирована установка приложений, которые были загружены из неофициальных истончиков</string>
     <string name="ok">ОК</string>
     <string name="settings">Настройки</string>
     <string name="allow_source_dlg_title">Разрешить добавление нового источника для приложений?</string>

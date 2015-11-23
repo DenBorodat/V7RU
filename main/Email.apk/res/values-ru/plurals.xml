@@ -12,12 +12,12 @@
         <item quantity="many">Архивировать эти цепочки (%1$d)?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Удалить эти цепочки (%1$d)?</item>
-        <item quantity="zero">Удалить эти цепочки (%1$d)?</item>
-        <item quantity="one">Удалить эту цепочку?</item>
-        <item quantity="two">Удалить эти цепочки (%1$d)?</item>
-        <item quantity="few">Удалить эти цепочки (%1$d)?</item>
-        <item quantity="many">Удалить эти цепочки (%1$d)?</item>
+        <item quantity="other">Удалить эти переписки? (%1$d)</item>
+        <item quantity="zero">Удалить эти переписки? (%1$d)</item>
+        <item quantity="one">Удалить эту переписку?</item>
+        <item quantity="two">Удалить эти переписки? (%1$d)</item>
+        <item quantity="few">Удалить эти переписки? (%1$d)</item>
+        <item quantity="many">Удалить эти переписки? (%1$d)</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
         <item quantity="other">Переписки содержат объедененные элементы. Удалить все?</item>

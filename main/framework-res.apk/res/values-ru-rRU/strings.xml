@@ -954,8 +954,8 @@
     <string name="chooseUsbActivity">Выбор приложения для USB-устройства</string>
     <string name="noApplications">Действие не поддерживается ни в одном приложении</string>
     <string name="aerr_title" />
-    <string name="aerr_application">В приложении %1$s произошла ошибка</string>
-    <string name="aerr_process">В приложении %1$s произошла ошибка</string>
+    <string name="aerr_application">Ошибка \"%1$s\"</string>
+    <string name="aerr_process">Ошибка \"%1$s\"</string>
     <string name="anr_title" />
     <string name="anr_activity_application">"Приложение %2$s не отвечает.
 
@@ -1078,9 +1078,9 @@
     <string name="dlg_confirm_kill_storage_users_text">При подключении USB-накопителя некоторые приложения могут прекратить работу и оставаться недоступными до его отключения</string>
     <string name="dlg_error_title">Ошибка при подключении USB</string>
     <string name="dlg_ok">ОК</string>
-    <string name="usb_mtp_notification_title">Подключен как устройство хранения данных</string>
-    <string name="usb_ptp_notification_title">Подключен как камера</string>
-    <string name="usb_charging_notification_title">Подключено в режиме зарядки</string>
+    <string name="usb_mtp_notification_title">Режим медиа-устройства (MTP)</string>
+    <string name="usb_ptp_notification_title">Режем камеры (PTP)</string>
+    <string name="usb_charging_notification_title">Режим зарядки</string>
     <string name="usb_cd_installer_notification_title">Подключен как установщик</string>
     <string name="usb_accessory_notification_title">USB-устройство подключено</string>
     <string name="usb_notification_message">Открыть список функций</string>
@@ -1470,41 +1470,20 @@
     <string name="webviewchromium_profiler_stopped_toast">Профайлер завершен. Результаты в %1$s.</string>
     <string name="webviewchromium_profiler_no_storage_toast">Ошибка запуска. Внешний накопитель не готов.</string>
     <string name="webviewchromium_profiler_error_toast">Не удалось запустить профайлер</string>
-    <string name="reboot_progress">Перезагрузка…</string>
-    <string name="toast_rotation_locked">Поворот дисплея заблокирован</string>
-    <string name="edp_brightness_limited">Яркость ограничена</string>
-    <string name="edp_camera_flash_limited">Вспышка камеры ограничена</string>
-    <string name="edp_volume_limited">Громкость ограничена</string>
-    <string name="global_action_sleep">Спящий режим</string>
-    <string name="global_actions_miracast_connection_failed_status">Ошибка подключения</string>
-    <string name="global_actions_miracast_connection_progress_status">Подключение к экрану…</string>
-    <string name="global_actions_miracast_mode_airplane_on_status">Невозможно. Включен режим полета.</string>
-    <string name="global_actions_miracast_mode_cancel_connection_status">Отменить подключение</string>
-    <string name="global_actions_miracast_mode_off_status_many_paired">Подключиться к последнему экрану</string>
-    <string name="global_actions_miracast_mode_off_status_no_paired">Подключиться к экрану</string>
-    <string name="global_actions_miracast_mode_off_status_single_paired">Подключиться к</string>
-    <string name="global_actions_miracast_mode_on_status">Остановить вещание</string>
-    <string name="global_actions_miracast_mode_pc2thor_on_status">Невозможно. ПК вещает на SHIELD.</string>
-    <string name="global_actions_miracast_mode_wifi_off_status">Невозможно. Wi-Fi отключен.</string>
-    <string name="global_actions_miracast_sink_not_found_status">Экран не найден</string>
-    <string name="global_actions_miracast_sink_search_status">Поиск экранов…</string>
-    <string name="global_actions_toggle_miracast_mode">Miracast беспроводной дисплей</string>
-    <string name="p2p_wifi_frequency_conflict_message">WLAN Direct будет отключен. Продолжить?</string>
-    <string name="permlab_nvidiaCPUPower">настройка процессора NVIDIA Tegra</string>
-    <string name="progress_erasing_internal">Erasing Internal storage…</string>
-    <string name="progress_unmounting_internal">Unmounting Internal storage…</string>
-    <string name="storage_phone">Память устройства</string>
-    <string name="China_Mobile">China Mobile</string>
-    <string name="China_Telecom">China Telecom</string>
-    <string name="China_Unicom">China Unicom</string>
+    <string name="lock_to_app_toast">Для разблокировки одновременно удерживайте клавиши \"Домой\" и \"Питание\"</string>
+    <string name="lock_to_app_toast_accessible">Для разблокировки одновременно удерживайте клавиши \"Домой\" и \"Питание\"</string>
+    <string name="lock_to_app_description">"Экран будет заблокирован в одном положении.
+
+Для разблокировки одновременно удерживайте клавиши \"Домой\" и \"Питание\"."</string>
+    <string name="lock_to_app_description_accessible">"Экран будет заблокирован в одном положении.
+
+Для разблокировки одновременно удерживайте клавиши \"Домой\" и \"Питание\"."</string>
     <string name="ColpMmi">Идентификатор подключенной линии</string>
     <string name="ColrMmi">Ограничение идентификатора подключенной линии</string>
     <string name="activity_resolver_work_profiles_support">%1$s не поддерживает рабочие профили</string>
-    <string name="android_upgrading_fstrim">Оптимизация хранилища…</string>
     <string name="battery_saver_description">"Чтобы продлить время работы устройства от батареи, в режиме энергосбережения снижается производительность, а также ограничивается использование вибрации, геолокации и фоновой передачи данных. Данные, требующие синхронизации, могут обновляться только когда вы откроете приложение.
 
 Режим энергосбережения автоматически отключается во время зарядки устройства."</string>
-    <string name="bugreport_status" formatted="false">%s (%s)</string>
     <string name="condition_provider_service_binding_label">Поставщик условий</string>
     <string name="day_picker_description">Окно выбора даты</string>
     <string name="deleted_key">Цифра %1$s удалена</string>
@@ -1528,19 +1507,11 @@
     <string name="global_action_settings">Настройки</string>
     <string name="hour_picker_description">Выбор часов на циферблате</string>
     <string name="item_is_selected">Выбран элемент %1$s</string>
-    <string name="lock_to_app_description">"Блокировка экрана закрепляет экран в одной позиции.
-
-Чтобы открепить экран, нажмите и удерживайте кнопки \"Назад\" и \"Обзор\" одновременно."</string>
-    <string name="lock_to_app_description_accessible">"Блокировка экрана закрепляет экран в одной позиции.
-
-Чтобы открепить экран, нажмите и удерживайте кнопку \"Обзор\"."</string>
     <string name="lock_to_app_exit">Блокировка выключена</string>
     <string name="lock_to_app_negative">ОТМЕНА</string>
     <string name="lock_to_app_positive">НАЧАТЬ</string>
     <string name="lock_to_app_start">Блокировка включена</string>
     <string name="lock_to_app_title">Включить блокировку?</string>
-    <string name="lock_to_app_toast">Чтобы открепить экран, нажмите и удерживайте кнопки \"Назад\" и \"Обзор\" одновременно.</string>
-    <string name="lock_to_app_toast_accessible">Чтобы открепить экран, нажмите и удерживайте кнопку \"Обзор\".</string>
     <string name="lock_to_app_toast_locked">Блокировка включена. Ее отключение запрещено правилами организации.</string>
     <string name="lock_to_app_unlock_password">Запрашивать пароль для отключения блокировки</string>
     <string name="lock_to_app_unlock_pattern">Запрашивать графический ключ для отключения блокировки</string>
@@ -1562,7 +1533,6 @@
     <string name="permdesc_bind_trust_agent_service">Приложение может подключаться к службе промежуточного агента.</string>
     <string name="permdesc_bluetoothMap">Доступ к данным Bluetooth MAP.</string>
     <string name="permdesc_bodySensors">Приложение сможет получить доступ к данным датчиков, размещенных на теле, например измеряющих частоту сердцебиения.</string>
-    <string name="permdesc_broadcastScoreNetworks">Приложение сможет отправлять уведомления о присвоении сетям рейтинга. Это разрешение не используется обычными приложениями.</string>
     <string name="permdesc_control_incall_experience">Работа с приложением во время разговора.</string>
     <string name="permdesc_frameStats">Приложение может собирать статистику по фреймам. Вредоносные приложения могут получать доступ к такой статистике у других программ.</string>
     <string name="permdesc_handoverStatus">Получение информации о текущих передачах Android Beam</string>
@@ -1597,7 +1567,6 @@
     <string name="permlab_bind_trust_agent_service">Подключение к службе промежуточного агента</string>
     <string name="permlab_bluetoothMap">доступ к данным Bluetooth MAP</string>
     <string name="permlab_bodySensors">датчики (например, пульсометр)</string>
-    <string name="permlab_broadcastScoreNetworks">оповещение о рейтинге сетей</string>
     <string name="permlab_control_incall_experience">Работа с приложением во время разговора</string>
     <string name="permlab_frameStats">получение статистики по фреймам</string>
     <string name="permlab_handoverStatus">Получение статуса передачи Android Beam</string>
@@ -1626,7 +1595,6 @@
     <string name="select_minutes">Выберите минуты</string>
     <string name="select_year">Выберите год</string>
     <string name="show_ime">Показать способ ввода</string>
-    <string name="usb_choose_notification_title">Нажмите для настройки USB.</string>
     <string name="use_a_different_app">Другое приложение</string>
     <string name="user_owner_label">Персональные приложения</string>
     <string name="user_switching_message">Смена профиля на %1$s…</string>
@@ -1640,6 +1608,38 @@
     <string name="whichViewApplicationNamed">Открыть с помощью приложения \"%1$s\"</string>
     <string name="year_picker_description">Меню выбора года</string>
     <string name="zen_mode_forever">Бессрочно</string>
+    <string name="reboot_progress">Перезагрузка…</string>
+    <string name="toast_rotation_locked">Поворот дисплея заблокирован</string>
+    <string name="edp_brightness_limited">Яркость ограничена</string>
+    <string name="edp_camera_flash_limited">Вспышка камеры ограничена</string>
+    <string name="edp_volume_limited">Громкость ограничена</string>
+    <string name="global_action_sleep">Спящий режим</string>
+    <string name="global_actions_miracast_connection_failed_status">Ошибка подключения</string>
+    <string name="global_actions_miracast_connection_progress_status">Подключение к экрану…</string>
+    <string name="global_actions_miracast_mode_airplane_on_status">Невозможно. Включен режим полета.</string>
+    <string name="global_actions_miracast_mode_cancel_connection_status">Отменить подключение</string>
+    <string name="global_actions_miracast_mode_off_status_many_paired">Подключиться к последнему экрану</string>
+    <string name="global_actions_miracast_mode_off_status_no_paired">Подключиться к экрану</string>
+    <string name="global_actions_miracast_mode_off_status_single_paired">Подключиться к</string>
+    <string name="global_actions_miracast_mode_on_status">Остановить вещание</string>
+    <string name="global_actions_miracast_mode_pc2thor_on_status">Невозможно. ПК вещает на SHIELD.</string>
+    <string name="global_actions_miracast_mode_wifi_off_status">Невозможно. Wi-Fi отключен.</string>
+    <string name="global_actions_miracast_sink_not_found_status">Экран не найден</string>
+    <string name="global_actions_miracast_sink_search_status">Поиск экранов…</string>
+    <string name="global_actions_toggle_miracast_mode">Miracast беспроводной дисплей</string>
+    <string name="p2p_wifi_frequency_conflict_message">WLAN Direct будет отключен. Продолжить?</string>
+    <string name="permlab_nvidiaCPUPower">настройка процессора NVIDIA Tegra</string>
+    <string name="progress_erasing_internal">Erasing Internal storage…</string>
+    <string name="progress_unmounting_internal">Unmounting Internal storage…</string>
+    <string name="storage_phone">Память устройства</string>
+    <string name="China_Mobile">China Mobile</string>
+    <string name="China_Telecom">China Telecom</string>
+    <string name="China_Unicom">China Unicom</string>
+    <string name="android_upgrading_fstrim">Оптимизация хранилища…</string>
+    <string name="bugreport_status" formatted="false">%s (%s)</string>
+    <string name="permdesc_broadcastScoreNetworks">Приложение сможет отправлять уведомления о присвоении сетям рейтинга. Это разрешение не используется обычными приложениями.</string>
+    <string name="permlab_broadcastScoreNetworks">оповещение о рейтинге сетей</string>
+    <string name="usb_choose_notification_title">Нажмите для настройки USB.</string>
     <string name="permdesc_nvidiaCPUPower">Позволяет приложению изменять настройки процессора NVIDA Tegra</string>
     <string name="storage_external_usb">Внешний USB-накопитель</string>
 </resources>

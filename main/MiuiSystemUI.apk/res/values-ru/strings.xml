@@ -150,10 +150,10 @@ d MMMM yyyy"</string>
     <string name="usb_storage_title">USB подключение</string>
     <string name="usb_storage_message">Вы подключили телефон к компьютеру через USB. Нажмите кнопку если вы хотите скопировать файлы между компьютером и телефоном.</string>
     <string name="usb_storage_error_message">Ошибка подключения</string>
-    <string name="usb_storage_notification_title">USB подключено</string>
-    <string name="usb_storage_notification_message">Выберите файлы для копирования с/на Ваш компьютер</string>
+    <string name="usb_storage_notification_title">Включить режим накопителя</string>
+    <string name="usb_storage_notification_message">Нажмите для включения режима накопителя</string>
     <string name="usb_storage_stop_notification_title">Выключить режим накопителя</string>
-    <string name="usb_storage_stop_notification_message">Выберите для отключения режима накопителя</string>
+    <string name="usb_storage_stop_notification_message">Нажмите для отключения режима накопителя</string>
     <string name="usb_storage_stop_title">Режим накопителя используется</string>
     <string name="usb_storage_stop_message">Перед отключением USB-соединения, удостоверьтесь что Вы размонтировали USB на Вашем компьютере</string>
     <string name="dlg_confirm_kill_storage_users_title">Включить USB-накопитель</string>
@@ -175,8 +175,8 @@ d MMMM yyyy"</string>
     <string name="ext_media_mountable_notification_title">USB-накопитель подключен</string>
     <string name="ext_media_mountable_notification_message">Нажмите для просмотра</string>
     <string name="ext_media_safe_remove">Безопасное извлечение</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
-    <string name="kilobyte_per_second">" К/с"</string>
+    <string name="network_speed_suffix">%1$s %2$s</string>
+    <string name="kilobyte_per_second">К/с</string>
     <string name="megabyte_per_second">М/с</string>
     <string name="status_bar_network_flow_today">Сегодня: %1$s</string>
     <string name="status_bar_network_flow_content">Сегодня: %1$s | Осталось: %2$s</string>
@@ -221,7 +221,6 @@ d MMMM yyyy"</string>
     <string name="headset_info">Настройка кнопок</string>
     <string name="headset_custom">Настроить</string>
     <string name="usb_share_net_info">Использовать интернет ПК</string>
-    <string name="hint_for_long_press_app_switch_key">Удерживайте, чтобы открыть меню приложения</string>
     <string name="battery_profiles">Режим питания</string>
     <string name="notification_template_text">Нажмите для просмотра</string>
     <string name="audio_effect_settings">Выбрать тип наушников</string>
@@ -236,7 +235,9 @@ d MMMM yyyy"</string>
     <string name="vpn_text_long">Подключено к %s</string>
     <string name="screen_button_notification_title">Кнопки навигации отключены</string>
     <string name="screen_button_notification_text">Чтобы включить, нажмите одновременно кнопки \"Домой\" и \"Питание\"</string>
+    <string name="task_access_locked_app_msg">Содержимое скрыто</string>
     <string name="toast_rotation_locked">Экран заблокирован в ландшафтной ориентации</string>
+    <string name="hint_for_long_press_app_switch_key">Удерживайте, чтобы открыть меню приложения</string>
     <string name="battery_low_subtitle">Батарея разряжена</string>
     <string name="battery_low_why">Статистика</string>
     <string name="screen_button_disabled_message">Функции кнопок на нижнем экране будут отключены. Вы можете включить их, нажав клавиши Домой и Питание.</string>
@@ -248,7 +249,7 @@ d MMMM yyyy"</string>
     <string name="status_bar_network_flow_warning_to_purchase">Сегодня: %1$s | Превышение: %2$s | Купить ></string>
     <string name="status_bar_recent_inspect_item_title">О приложении</string>
     <string name="status_bar_toggle_ac">Контроль доступа</string>
-    <string name="status_bar_toggle_auto_brightness">Подсветка</string>
+    <string name="status_bar_toggle_auto_brightness">Автояркость</string>
     <string name="status_bar_toggle_bluetooth">Bluetooth</string>
     <string name="status_bar_toggle_brightness">Яркость</string>
     <string name="status_bar_toggle_data">Интернет</string>

@@ -1,3 +1,3 @@
-# MIUI-v7-Uk-Ru
+# MIUI-v7-Ru
 
 

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="slider_text">Сдвиньте вверх, чтобы отключить</string>
+    <string name="snooze_confirm_cancel">Отключить</string>
+    <string name="timer_alarm_cancel_pad">Нажмите на экран, чтобы выключить будильник</string>
+    <string name="timer_alarm_alert_pad">%s</string>
     <string name="common_settings">ОБЩИЕ НАСТРОЙКИ</string>
     <string name="alarm_settings">НАСТРОЙКИ ТЕМЫ</string>
     <string name="edit_systemtime">Настройки даты и времени</string>
@@ -59,12 +63,16 @@
     <string name="default_alarm_title">Стандартная мелодия</string>
     <string name="alarm_alert">Мелодия</string>
     <string name="alarm_screen">Тема</string>
-    <string name="slider_text">Сдвиньте вверх, чтобы отключить</string>
-    <string name="snooze_confirm_cancel">Отключить</string>
     <string name="menu_item_sort_by_gmt_offset">Совртировать по времени</string>
     <string name="menu_item_sort_by_name">Сортировать по названию</string>
     <string name="birthday_alarm">Праздничная мелодия</string>
     <string name="birthday_alarm_summary">Играть мелодию \"С Днем Рождения\" вместо стандартной в день своего рождения</string>
+    <string name="turn_off_a_repeat_alarm">Отключить повтор будильника</string>
+    <string name="skip_alarm_once_hint">Отключить этот будильник в %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
+    <string name="turn_off_this_repeat_alarm">Отключить повтор этого будильника</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
     <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
     <string name="elapsed_time_format">+%s</string>
     <string name="app_label">Часы</string>
@@ -122,7 +130,6 @@
     <string name="timer_message_00">%1$d мин. %2$d сек.</string>
     <string name="timer_message_01">%1$d мин. %2$d сек.</string>
     <string name="timer_message_10">%1$d мин. %2$d сек.</string>
-    <string name="menu_edit_alarm">Изменить будильник</string>
     <string name="abbrev_wday_month_day_no_year">dMMMMEEE</string>
     <string name="add_time_zone">Добавить часовой пояс</string>
     <string name="alarm_alert_dismiss_now_text">Отключить</string>
@@ -178,6 +185,7 @@
     <string name="label_description">Название</string>
     <string name="menu_alarm">Будильник</string>
     <string name="menu_clock">Часы</string>
+    <string name="menu_edit_alarm">Изменить будильник</string>
     <string name="menu_item_help">Помощь</string>
     <string name="menu_item_night_mode">Ночной режим</string>
     <string name="menu_item_settings">Настройки</string>
