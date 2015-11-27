@@ -26,7 +26,8 @@
     <string name="shut_down">Выключить</string>
     <string name="sim_redetection">Повторить</string>
     <string name="title_congratulation">Поздравляем!</string>
-    <string name="congratulation_label">"Первоначальная настройка устройства завершена. Приятного пользования!"</string>
+    <string name="congratulation_label">"Первоначальная настройка устройства завершена. Благодарим Вас за использование данной прошивки - Вы сделали правильный выбор!
+С уважением, коллектив MiuiPro."</string>
     <string name="pref_title_voice_slot">SIM-карта для звонков</string>
     <string name="pref_title_data_slot">SIM-карта для интернета</string>
     <string name="summary_not_set">Не выбрано</string>
@@ -50,10 +51,6 @@
     <string name="provision_finish">ОК</string>
     <string name="provision_finish_restart">Перезагрузить</string>
     <string name="install_preinstall_app">Загрузка приложений…</string>
-    <string name="title_fingerprint">Отпечаток пальца</string>
-    <string name="desc_fingerprint">Используйте отпечаток пальца для разблокировки устройства, подтверждения оплаты и других возможностей.</string>
-    <string name="desc_extra_fingerprint" />
-    <string name="next_fingerprint">Далее</string>
     <string name="congratulation_next">Начать работу</string>
     <string name="logo_congratulation">Поздравляем</string>
     <string name="locale_picker_desc">Если Вы хотите изменить свое местоположение позже, необходимо будет выполнить полный вайп.</string>

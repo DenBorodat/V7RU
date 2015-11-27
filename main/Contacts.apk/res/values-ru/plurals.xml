@@ -113,10 +113,6 @@
         <item quantity="other">Разблокировать номера? (%1$d)</item>
         <item quantity="one">Разблокировать номер?</item>
     </plurals>
-    <plurals name="voip_contacts_count">
-        <item quantity="other">Контактов: %1$d</item>
-        <item quantity="one">Контактов: %1$d</item>
-    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">| Гудков: %d</item>
         <item quantity="one">| Гудков: %d</item>

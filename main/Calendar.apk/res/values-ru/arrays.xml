@@ -216,12 +216,6 @@
         <item>мес.</item>
         <item>год</item>
     </string-array>
-    <string-array name="repeat_frequency_spinner_plural">
-        <item>дн.</item>
-        <item>нед.</item>
-        <item>мес.</item>
-        <item>г.</item>
-    </string-array>
     <string-array name="repeat_choose_day">
         <item>1</item>
         <item>2</item>

@@ -48,9 +48,4 @@
         <item>Бэкап и удаление</item>
         <item>Удалить</item>
     </string-array>
-    <string-array name="auto_alert_apps_time">
-        <item>Каждые 7 дней</item>
-        <item>Каждые 15 дней</item>
-        <item>Каждые 30 дней</item>
-    </string-array>
 </resources>

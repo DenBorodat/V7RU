@@ -49,8 +49,4 @@
         <item>Невыбранные</item>
         <item>Другие</item>
     </string-array>
-    <string-array name="hmode_app_groups">
-        <item>Пользовательские настройки</item>
-        <item>Системные настройки</item>
-    </string-array>
 </resources>

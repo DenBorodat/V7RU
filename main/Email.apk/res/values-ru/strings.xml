@@ -152,7 +152,6 @@
     <string name="archive">Архивировать</string>
     <string name="archived">Архивировано</string>
     <string name="att_download_failed_content">Не удалось загрузить вложение</string>
-    <string name="att_download_failed_network_slow">Низкая скорость интернета</string>
     <string name="att_download_failed_title">Ошибка загрузки</string>
     <string name="att_file_not_exists">Файл \"%s\" не найден</string>
     <string name="att_mgr_no_attachment">Нет вложений</string>
@@ -196,13 +195,6 @@
     <string name="bottom_bar_more_share">Отправить</string>
     <string name="bottom_bar_no_quickreply_toast">Нет быстрого ответа</string>
     <string name="bytes">%s б</string>
-    <string name="calendar_remind_dialog_title">Напоминание</string>
-    <string name="calendar_remind_gridview_month_later">Через месяц</string>
-    <string name="calendar_remind_gridview_nextweek">Через неделю</string>
-    <string name="calendar_remind_gridview_pick_date">Выбрать дату</string>
-    <string name="calendar_remind_gridview_tomorrow">Завтра</string>
-    <string name="calendar_remind_gridview_tonight">Сегодня ночью</string>
-    <string name="calendar_remind_gridview_weekend">В выходные</string>
     <string name="cancel">Отмена</string>
     <string name="cancel_action">Отмена</string>
     <string name="cant_move_or_change_labels">Невозможно переместить выбранное, так как оно используется в нескольких аккаунтах</string>
@@ -225,8 +217,6 @@
     <string name="click_download_all_content">[нажмите для загрузки]</string>
     <string name="collapse_recipient_details">Скрыть информацию</string>
     <string name="compose">Создать</string>
-    <string name="compose_attachment_number_limit">Нельзя прикрепить более 10 вложений</string>
-    <string name="compose_picturesexceedlimits">Нельзя прикрепить более 5 изображений</string>
     <string name="compose_send">Отправить</string>
     <string name="compose_sent">Сообщение отправлено</string>
     <string name="confirm">ОК</string>
@@ -245,8 +235,6 @@
     <string name="contact_edit_set_black_list_receive_summary">Удаление всех сообщений, содержащих этого отправителя.</string>
     <string name="contact_edit_set_phone_contact">Изменить контакт</string>
     <string name="contact_edit_title_phone_contact">Контакты</string>
-    <string name="contact_in_filter_call_phone_str">Вызов: %s</string>
-    <string name="contact_in_filter_title">Поступивший от пользователя</string>
     <string name="contact_info_string">Показать контакты: %1$s</string>
     <string name="contact_info_string_default">Показать контакты</string>
     <string name="contact_list_add_btn">Добавить</string>
@@ -303,7 +291,6 @@
     <string name="discard">Отменить</string>
     <string name="discard_drafts">Удалить черновик</string>
     <string name="dismiss_tip_hover_text">Совет</string>
-    <string name="disturb_switch">Не беспокоить</string>
     <string name="done">Вернуться</string>
     <string name="done_action">Готово</string>
     <string name="donot_disturb_endtime_title">Окончание</string>
@@ -375,8 +362,6 @@
     <string name="get_database_exception">Устаревшая база данных. Очистите данные приложения.</string>
     <string name="gmail_acceleration">Использовать прокси сервер для доступа к аккаунту Gmail</string>
     <string name="gmail_login_confirm_to_use_proxy">Использовать прокси сервер для доступа к аккаунту Gmail?</string>
-    <string name="gmail_login_failed_non_proxy_title">Ошибка доступа на сервер Gmail</string>
-    <string name="gmail_server_authorization_deleted">Ошибка авторизации на сервере Gmail</string>
     <string name="gmail_web_login_go">ОК</string>
     <string name="gmail_web_login_required_message">Войти в аккаунт Gmail</string>
     <string name="header_category_account">Аккаунты</string>
@@ -519,12 +504,12 @@
     <string name="outbox_alert_description_cannot_authenticate">Системная ошибка: %s</string>
     <string name="outbox_alert_description_email_size_error">Достигнута максимальная длина сообщения</string>
     <string name="outbox_alert_description_fail_authentication">Неверное имя пользователя или пароль</string>
-    <string name="outbox_alert_description_fail_network">Ошибка интернета</string>
     <string name="outbox_alert_description_http_error">Ошибка HTTP во время синхронизации папки \"Исходящие\"</string>
     <string name="outbox_alert_description_insufficient_storage_error">Память заполнена на сервере почты</string>
     <string name="outbox_alert_description_provision_error">Ошибка положения во время синхронизации папки \"Исходящие\"</string>
     <string name="outbox_alert_description_reject_by_server">Отклонено: %s</string>
     <string name="outbox_alert_description_sent_failed">Размер прикрепленного файла слишком большой</string>
+    <string name="outbox_alert_description_time_out">Время ожидания истекло</string>
     <string name="outbox_alert_duplicate_click">Синхронизация…</string>
     <string name="outbox_alert_edit_resend">Изменить</string>
     <string name="outbox_alert_failed_edit_resend">Ошибка отправки. Измените сообщение и отправьте повторно.</string>
@@ -636,7 +621,6 @@
     <string name="remove_folder">Удалить из \"%1$s\"</string>
     <string name="remove_star">Из избранных</string>
     <string name="reply">Ответить</string>
-    <string name="reply_add_bodycontent">Добавить содержимое быстрого ответа в сообщение?</string>
     <string name="reply_all">Ответить всем</string>
     <string name="reply_attribution" formatted="false">%s | От: %s | Сообщение:</string>
     <string name="reply_subject_label">Re:</string>
@@ -986,13 +970,12 @@
     <string name="account_setup_index_other_mails">Прочие</string>
     <string name="accounts_heading">Аккаунты</string>
     <string name="from_label">Аккаунт отправителя</string>
-    <string name="outbox_alert_description_time_out">Время ожидания истекло</string>
     <string name="gmail_login_verify">Добавить аккаунт Gmail</string>
+    <string name="account_setup_not_disturb_title">Не беспокоить</string>
+    <string name="open_proxy_in_settings">Gmail недоступен. Вы сможете отправлять и получать сообщения Gmail только с помощью прокси сервера.</string>
     <string name="contact_edit_set_pop_up_tips">Всплывающие уведомления</string>
     <string name="contact_edit_set_unread_top">Сначала непрочитанные</string>
     <string name="contact_edit_set_vip">В белый список</string>
     <string name="contact_edit_title_permission">Разрешения контактов</string>
-    <string name="open_proxy_in_settings">Gmail недоступен. Вы сможете отправлять и получать сообщения Gmail только с помощью прокси сервера.</string>
-    <string name="account_setup_not_disturb_title">Не беспокоить</string>
     <string name="ser_resp_err_map_serclosed_url_tag">Информация</string>
 </resources>

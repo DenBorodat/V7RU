@@ -18,6 +18,8 @@
     <string name="pref_summary_sync_display_photo_on_wifi_only">Рекомендуется включить, иначе будет использоваться мобильный интернет</string>
     <string name="pref_title_sync_video_on_wifi_only">Видео только по Wi-Fi</string>
     <string name="pref_summary_sync_video_on_wifi_only">Синхронизировать видео профиля только по сети Wi-Fi</string>
+    <string name="find_device_stop_noise">Нажмите ОК, чтобы остановить сигнал</string>
+    <string name="find_device_noise_title">Поиск устройства</string>
     <string name="error_title">Ошибка синхронизации</string>
     <string name="error_unauthorized">Слишком много попыток входа. Сихронизация отключена.</string>
     <string name="error_forbidden">Проблема с Mi аккаунтом. Синхронизация отключена.</string>
@@ -49,7 +51,7 @@
     <string name="sync_on">Вкл.</string>
     <string name="sync_off">Выкл.</string>
     <string name="mx_dspt">Облачные сообщения</string>
-    <string name="mx_voip_dspt">Mi Voice</string>
+    <string name="mx_voip_dspt">Mi общение</string>
     <string name="mx_sub_dspt_provision">Облачные сообщения</string>
     <string name="mx_sub_dspt_provision_with_voip">VoIP звонки</string>
     <string name="voip_choose_sim">Выберите номер для активации VoIP</string>
@@ -58,7 +60,6 @@
     <string name="phone_number_required_dspt_provision">Этой услуге требуется Ваш номер телефона.</string>
     <string name="sync_resend_sms_dspt_provision">При смене SIM-карты, может быть отправлено одно сообщение для повторной активации.</string>
     <string name="sync_dspt_provision_title">Mi Cloud</string>
-    <string name="sync_dspt_provision_header">Синхронизация</string>
     <string name="sync_dspt_provision">"Синхронизация Синхронизируйте фото, контакты и другие данные между всеми устройствами и управляйте ими на "</string>
     <string name="sync_dspt_provision2">i.mi.com</string>
     <string name="sync_dspt_provision2_int">mi.com/micloud</string>
@@ -88,10 +89,6 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="mx_dspt_provision_privacy_2_sim">"Для использования этой функции может потребоваться номер Вашего телефона. При ее активации может взиматься плата за 2 SMS.
 
 Ваш ID будет зашифрован и отправлен на сервер Xiaomi."</string>
-    <string name="mx_dspt_provision_privacy_no_sim">"При активации активации SIM-карты может взиматься плата оператором за SMS.
-Ваш ID Mi аккаунта будет зашифрован и отправлен на сервер Xiaomi."</string>
-    <string name="user_agreement_p5">"
-"</string>
     <string name="user_agreement_p6">Использование этой функции подлежит</string>
     <string name="user_agreement_p7">Условиям использования Mi Cloud</string>
     <string name="user_agreement_p8">.</string>
@@ -103,16 +100,10 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="activating">Активация…</string>
     <string name="other_settings">Другие настройки</string>
     <string name="find_device">Поиск устройства</string>
-    <string name="find_device_reading_status">Загрузка статуса…</string>
     <string name="find_device_enabling">Включение…</string>
     <string name="find_device_disabling">Выключение…</string>
-    <string name="find_device_reading_status_failure">Ошибка загрузки статуса</string>
-    <string name="enable_find_device_success">Поиск устройства включен</string>
-    <string name="disable_find_device_success">Поиск устройства отключен</string>
     <string name="enable_find_device_error">%1$s, ошибка включения обнаружения устройства</string>
     <string name="disable_find_device_error">%1$s, ошибка отключения обнаружения устройства</string>
-    <string name="find_device_error_unknown">Произошла ошибка</string>
-    <string name="find_device_error_password_changed">Пароль аккаунта был изменен</string>
     <string name="find_device_error_network">Сеть недоступна</string>
     <string name="find_device_error_server">Ошибка сервера</string>
     <string name="find_device_success_title">Поиск устройства</string>
@@ -158,7 +149,6 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="micloud_space_soundrecorder_detail">Управляйте записями диктофона на устройстве</string>
     <string name="micloud_space_full_influence"><u>Подробнее</u></string>
     <string name="micloud_storage_usage" formatted="false">Занято: %s | Всего: %s</string>
-    <string name="micloud_storage_full">Память в Mi Cloud заполнена</string>
     <string name="micloud_title_dspt" formatted="false">"Всего: %s 
  Занято: %s | Свободно: %s"</string>
     <string name="micloud_title_dspt_remain">Осталось %s</string>
@@ -197,12 +187,6 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="sync_sub_2_sms">Для активации SIM-карт, будет отправлено одно обычное сообщение.</string>
     <string name="sync_sub_2_intl_sms">Для активации SIM-карт, будет отправлено два международных сообщения.</string>
     <string name="sync_sub_1_sms_1_intl_sms">Для активации SIM-карт, будет отправлено одно международное и одно обычное сообщение.</string>
-    <string name="micloud_all_sub_1_sms">"Будет отправлено SMS для активации SIM-карты. Оплата согласно Вашему тарифному плану. При включении 'Поиска устройства', может быть отправлено SMS для активации после смены SIM-карты."</string>
-    <string name="micloud_all_sub_1_intl_sms">"Будет отправлено международное SMS для активации SIM-карты. Оплата согласно Вашему тарифному плану. При включении 'Поиска устройства', может быть отправлено SMS для активации после смены SIM-карты."</string>
-    <string name="micloud_all_sub_2_sms">"Будет отправлено 2 SMS для активации SIM-карты. Оплата согласно Вашему тарифному плану. При включении 'Поиска устройства', может быть отправлено SMS для активации после смены SIM-карты."</string>
-    <string name="micloud_all_sub_2_intl_sms">"Будет отправлено 2 международных SMS для активации SIM-карты. Оплата согласно Вашему тарифному плану. При включении 'Поиска устройства', может быть отправлено SMS для активации после смены SIM-карты."</string>
-    <string name="micloud_all_sub_1_sms_1_intl_sms">"Будет отправлено 2 SMS (обычное и международное) для активации SIM-карты. Оплата согласно Вашему тарифному плану. При включении 'Поиска устройства', может быть отправлено SMS для активации после смены SIM-карты."</string>
-    <string name="micloud_all_sub_resend_sms">После смены SIM-карты для повторной активации поиска устройства будет отправлена SMS</string>
     <string name="sync_item_calllog_title">Синхронизация вызовов</string>
     <string name="sync_item_calllog_summary">Синхронизировать журнал вызовов этого телефона</string>
     <string name="view_storage_title">Облако</string>
@@ -221,21 +205,16 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="micloud_main_sync_exception">Ошибка синхронизации</string>
     <string name="micloud_main_stop_sync">Остановить синхр.</string>
     <string name="micloud_main_suggest_sync">Некоторые данные требуется синхронизировать с Mi Cloud</string>
-    <string name="micloud_main_suggest_master_sync">Синхронизация остановлена</string>
     <string name="micloud_main_set_internet">Настройки</string>
     <string name="micloud_main_sync_now">Синхронизировать</string>
-    <string name="micloud_main_sync_on">Синхронизация включена</string>
     <string name="micloud_main_network_error">Нет подключения к сети</string>
     <string name="micloud_main_sync_on_wifi">Данные будут синхронизированы по Wi-Fi</string>
     <string name="micloud_main_sync_setting">Настройки синхронизации</string>
     <string name="micloud_main_suggest_setting">Ожидание сети Wi-Fi</string>
-    <string name="micloud_main_sync_pending">Ожидание синхронизации…</string>
     <string name="micloud_main_data_unsynced">Не синхронизировано %d</string>
     <string name="micloud_main_detail">Подробнее</string>
     <string name="micloud_main_network_abnormal">Нет подключения к интернету</string>
     <string name="micloud_main_sync_init">Получение информации</string>
-    <string name="micloud_main_battery_low">Недостаточно заряда батареи для синхронизации</string>
-    <string name="micloud_main_battery_message">Подключите зарядное устройство для синхронизации данных (%d)</string>
     <string name="micloud_main_syncing">Синхронизация…</string>
     <string name="micloud_main_last_sync_time">Последняя синхронизация %s</string>
     <string name="micloud_main_synced_data_count">Синхронизированно данных: %d</string>
@@ -243,10 +222,6 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="micloud_main_space_full">Облако заполнено</string>
     <string name="micloud_main_space_low">Место заканчивается</string>
     <string name="micloud_main_update_space">Добавить место</string>
-    <string name="micloud_main_space_full_title">Память в Mi Cloud заполнена</string>
-    <string name="micloud_main_memory_low_title">Недостаточно памяти</string>
-    <string name="micloud_main_memory_low_message">Для синхронизации данных удалите ненужные файлы с Mi Cloud</string>
-    <string name="micloud_main_clear_now">Очистить</string>
     <string name="micloud_detail_syncing">синхронизация…</string>
     <string name="micloud_detail_upload_syncing">Загрузка %s</string>
     <string name="micloud_detail_download_syncing">Скачивание %s</string>
@@ -254,18 +229,16 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="micloud_detail_success">синхронизировано</string>
     <string name="micloud_detail_fail">ошибка</string>
     <string name="micloud_detail_lastest">Синхронизировано</string>
-    <string name="micloud_detail_lastest_with_off">Синхронизировано</string>
-    <string name="micloud_detail_not_synced">Не синхронизировано</string>
     <string name="micloud_detail_preference_syncing">Синхронизация</string>
     <string name="micloud_detail_preference_wlan">Синхронизация по Wi-Fi</string>
     <string name="micloud_detail_wlan">не синхрон. данных %d</string>
     <string name="micloud_detail_wlan_contact">не синхрон. фото контактов %d</string>
     <string name="micloud_detail_wlan_mms">не синхрон. MMS %d</string>
     <string name="micloud_check_sim_title">"Похоже Вы сменили SIM-карту. Войдите
-в Mi аккаунт для повтороной активации Mi Cloud."</string>
+в свой Mi аккаунт для повтороной активации Mi Cloud."</string>
     <string name="micloud_check_sim_notify_title">Повторная активация Mi Cloud</string>
     <string name="micloud_check_sim_notify_text">"Похоже Вы сменили SIM-карту. Войдите
-в Mi аккаунт для повтороной активации Mi Cloud."</string>
+в свой Mi аккаунт для повтороной активации Mi Cloud."</string>
     <string name="micloud_setting_contact_summary">Информация и фото контактов</string>
     <string name="micloud_setting_sms_summary">SMS и MMS сообщения</string>
     <string name="micloud_setting_gallery_summary">Фото и видео</string>
@@ -353,69 +326,10 @@ ID Вашего устройства будет зашифрован и отпр
     <string name="micloud_main_title_sync_fail">Ошибка синхронизации</string>
     <string name="micloud_main_title_sync_on_wifi">Только по сети Wi-Fi</string>
     <string name="micloud_main_title_sync_off">Синхронизация выключена</string>
-    <string name="micloud_main_title_master_sync_off">Автосинхронизация отключена</string>
-    <string name="micloud_confusion_no">Отмена</string>
-    <string name="micloud_confusion_yes">ОК</string>
-    <string name="micloud_confusion_cancel">Отмена</string>
-    <string name="micloud_confusion_ok">ОК</string>
-    <string name="micloud_confusion_entrance_title">Mi Cloud изменен</string>
-    <string name="micloud_confusion_entrance_question">Вы изменяли данные в Mi Cloud через %s?</string>
-    <string name="micloud_confusion_entrance_hint">Для обеспечения безопасности не делитесь своими данными через сайт Mi Cloud</string>
-    <string name="micloud_confusion_account_title">ID Mi аккаунта</string>
-    <string name="micloud_confusion_account_question">Это ваш Mi аккаунт: %s?</string>
-    <string name="micloud_confusion_account_hint">Все данные будут синхронизироваться между вашими устройствами</string>
-    <string name="micloud_confusion_setting_title">Слишком много устройств</string>
-    <string name="micloud_confusion_setting_question">Выключите синхронизацию на других привязанных к аккаунту устройствах</string>
-    <string name="micloud_confusion_finish_title">Аккаунт проверен</string>
-    <string name="micloud_confusion_finish_message">Убедитесь для безопасности данных, что устройства, которыми вы не пользуетесь, не синхронизируются с Mi Cloud</string>
-    <string name="micloud_confusion_finish_hint">Все данные будут синхронизироваться между вашими устройствами</string>
-    <string name="micloud_confusion_entrance_notify_title">Mi Cloud изменен</string>
-    <string name="micloud_confusion_entrance_notify_text">Нажмите для просмотра</string>
-    <string name="micloud_confusion_account_notify_title">Проверка аккаунта</string>
-    <string name="micloud_confusion_account_notify_text">Ваш Mi аккаунт был изменен на другом устройстве</string>
-    <string name="micloud_confusion_setting_notify_title">Защитите свой аккаунт</string>
-    <string name="micloud_confusion_setting_notify_text">Убедитесь для безопасности данных, что устройства, которыми вы не пользуетесь, не синхронизируются с Mi Cloud</string>
-    <string name="micloud_confusion_setting_password_error">Введен неверный пароль</string>
-    <string name="micloud_confusion_toast_confirm">Устройство проверено</string>
-    <string name="micloud_confusion_toast_deny">Войдите в Mi аккаунт</string>
-    <string name="micloud_confusion_alert_title">Аккаунт изменен с другого устройства</string>
-    <string name="micloud_confusion_alert_message">Информация Mi аккаунта была изменена через %s</string>
-    <string name="micloud_confusion_alert_negative">Позже</string>
-    <string name="micloud_confusion_alert_positive">Подробнее</string>
-    <string name="micloud_confusion_check_account_title">Повторная активация Mi Cloud</string>
-    <string name="micloud_confusion_account_name">"ID Mi аккаунта: "</string>
-    <string name="input_password_hint">Введите пароль</string>
-    <string name="forget_password"><u>Забыли пароль?</u></string>
     <string name="micloud_sync_alert_dialog_title">Mi Cloud</string>
     <string name="micloud_sync_alert_dialog_message">Синхронизируйте фото, контакты, заметки и другие данные между устройствами.</string>
     <string name="micloud_sync_alert_dialog_negative">Отмена</string>
     <string name="micloud_sync_alert_dialog_positive">ОК</string>
-    <string name="micloud_battery_low_notification_title">Батарея разряжена</string>
-    <string name="micloud_battery_low_notification_message">Синхронизация остановлена</string>
-    <string name="micloud_upgrade_member">Получить больше места</string>
-    <string name="micloud_notif_title_depend_wifi">Ожидание синхронизации: %d</string>
-    <string name="micloud_notif_content_depend_wifi">Ожидание сети Wi-Fi для синхронизации</string>
-    <string name="micloud_find_device_guide_title">Перейдите на %s для поиска, блокировки и очистки вашего устройства</string>
-    <string name="micloud_find_device_guide_content">При смене SIM-карты будет автоматически отправлена SMS активации</string>
-    <string name="micloud_find_device_guide_button">Включите поиск устройства</string>
-    <string name="micloud_find_device_guide_progress">Включение поиска устройства…</string>
-    <string name="micloud_find_device_opened">Поиск устройства включен</string>
-    <string name="micloud_find_device_open_fail">Ошибка включения поиска устройства</string>
-    <string name="micloud_find_device_opened_content">Найдите свое устройство через %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
-    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
-    <string name="micloud_find_device_finish">Завершено</string>
-    <string name="micloud_find_device_guide_micloud">Включите синхронизацию с Mi Cloud</string>
-    <string name="micloud_find_device_guide_micloud_sub_content">Синхронизируйте контакты, фото, заметки и другие данные с Mi Cloud</string>
-    <string name="micloud_find_device_guide_fail_reopen">Включите поиск устройства</string>
-    <string name="micloud_find_device_guide_fail_sub_net">Инетрент недоступен</string>
-    <string name="micloud_find_device_guide_fail_sub_timeout">Время ожидания вышло</string>
-    <string name="micloud_find_device_guide_noti_title">Включите поиск устройства для защиты данных</string>
-    <string name="micloud_find_device_guide_noti_content">Включить</string>
-    <string name="micloud_find_device_guide_noti_title_by_app_change_wx">Включите поиск устройства для защиты данных WeChat</string>
-    <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Включите поиск устройства для защиты данных Alipay</string>
-    <string name="find_device_noise_title">Поиск устройства</string>
-    <string name="find_device_stop_noise">Нажмите ОК, чтобы остановить сигнал</string>
     <string name="micloud_intro_01_part_01">Экономия на SMS</string>
     <string name="micloud_intro_01_part_02">MIUI позволяет отправлять бесплатные облачные сообщения</string>
     <string name="micloud_intro_02_part_01">Не нужно ничего делать</string>

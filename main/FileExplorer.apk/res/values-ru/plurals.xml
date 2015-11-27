@@ -49,28 +49,20 @@
         <item quantity="many">Выбрано: %1$d</item>
     </plurals>
     <plurals name="items_file">
-        <item quantity="other">файлов: %1$d</item>
-        <item quantity="zero">файлов: %1$d</item>
-        <item quantity="one">файлов: %1$d</item>
-        <item quantity="two">файлов: %1$d</item>
-        <item quantity="few">файлов: %1$d</item>
-        <item quantity="many">файлов: %1$d</item>
+        <item quantity="other"> (файлов: %1$d)</item>
+        <item quantity="zero"> (файлов: %1$d)</item>
+        <item quantity="one"> (файлов: %1$d)</item>
+        <item quantity="two"> (файлов: %1$d)</item>
+        <item quantity="few"> (файлов: %1$d)</item>
+        <item quantity="many"> (файлов: %1$d)</item>
     </plurals>
     <plurals name="items_picture">
-        <item quantity="other">файлов: %1$d</item>
-        <item quantity="zero">файлов: %1$d</item>
-        <item quantity="one">файлов: %1$d</item>
-        <item quantity="two">файлов: %1$d</item>
-        <item quantity="few">файлов: %1$d</item>
-        <item quantity="many">файлов: %1$d</item>
-    </plurals>
-    <plurals name="file_count">
-        <item quantity="other"> Файлов: %1$d</item>
-        <item quantity="zero"> Файлов: %1$d</item>
-        <item quantity="one"> Файлов: %1$d</item>
-        <item quantity="two"> Файлов: %1$d</item>
-        <item quantity="few"> Файлов: %1$d</item>
-        <item quantity="many"> Файлов: %1$d</item>
+        <item quantity="other"> (файлов: %1$d)</item>
+        <item quantity="zero"> (файлов: %1$d)</item>
+        <item quantity="one"> (файлов: %1$d)</item>
+        <item quantity="two"> (файлов: %1$d)</item>
+        <item quantity="few"> (файлов: %1$d)</item>
+        <item quantity="many"> (файлов: %1$d)</item>
     </plurals>
     <plurals name="search_head_hint_app">
         <item quantity="other">Поиск по запросу \"%1$s\" (элементов: %2$d)</item>
