@@ -21,6 +21,7 @@
     <string name="debug_dump_email_body">Будьте внимательны: в приложенном файле находится база данных с моими контактами</string>
     <string name="pound_search_tip">Введите номер для поиска контактов SIM</string>
     <string name="create_contact">Создать контакт</string>
+    <string name="video_call">Видеовызов</string>
     <string name="send_sms">Отправить сообщение</string>
     <string name="search_the_yellowpage">Поиск в сервисах</string>
     <string name="edit_contact">Добавить к контакту</string>

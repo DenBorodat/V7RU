@@ -170,11 +170,53 @@
         <item>Починайте без мене</item>
         <item>Вибачте, я не можу цього зробити. Потрібно переглянути розклад</item>
     </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Завжди</item>
+        <item>Коли сигнал вимкнено</item>
+        <item>Ніколи</item>
+    </string-array>
     <string-array name="widget_style_list">
         <item>Прозорий</item>
         <item>Білий</item>
     </string-array>
+    <string-array name="miui_reminder_minutes_labels">
+        <item>Не нагадувати</item>
+        <item>По факту</item>
+        <item>За 5 хвилин</item>
+        <item>За 10 хвилин</item>
+        <item>За 15 хвилин</item>
+        <item>За 30 хвилин</item>
+        <item>За годину</item>
+        <item>За день</item>
+        <item>За 2 дня</item>
+        <item>За тиждень</item>
+    </string-array>
+    <string-array name="miui_preferences_default_reminder_labels">
+        <item>Вимкнено</item>
+        <item>Одразу</item>
+        <item>За 5 хвилин</item>
+        <item>За 10 хвилин</item>
+        <item>За 15 хвилин</item>
+        <item>За 30 хвилин</item>
+        <item>За 1 годину</item>
+        <item>За 1 день</item>
+        <item>За 2 дні</item>
+        <item>За 1 тиждень</item>
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
+        <item>3 години</item>
+        <item>4 години</item>
+        <item>5 годин</item>
+        <item>6 годин</item>
+        <item>1 день</item>
+    </string-array>
     <string-array name="repeat_frequency_spinner">
+        <item>дн.</item>
+        <item>тиж.</item>
+        <item>міс.</item>
+        <item>р.</item>
+    </string-array>
+    <string-array name="repeat_frequency_spinner_plural">
         <item>дн.</item>
         <item>тиж.</item>
         <item>міс.</item>
@@ -331,45 +373,9 @@
         <item>Амазонка - Рондонія</item>
         <item>Бразилія - Пара</item>
     </string-array>
-	<string-array name="miui_reminder_minutes_labels">
-        <item>Не нагадувати</item>
-        <item>По факту</item>
-        <item>За 5 хвилин</item>
-        <item>За 10 хвилин</item>
-        <item>За 15 хвилин</item>
-        <item>За 30 хвилин</item>
-        <item>За годину</item>
-        <item>За день</item>
-        <item>За 2 дня</item>
-        <item>За тиждень</item>
-     </string-array>
-	<string-array name="prefEntries_alerts_vibrateWhen">
+    <string-array name="prefentries_alerts_vibratewhen">
         <item>Завжди</item>
-        <item>Коли сигнал вимкнено</item>
+        <item>У режимі \"Без звуку\"</item>
         <item>Ніколи</item>
-     </string-array>
-	 <string-array name="prefentries_alerts_vibratewhen">
-       <item>Завжди</item>
-       <item>У режимі \"Без звуку\"</item>
-       <item>Ніколи</item>
-    </string-array>
-	<string-array name="miui_preferences_default_reminder_labels">
-       <item>Вимкнено</item>
-       <item>Одразу</item>
-       <item>За 5 хвилин</item>
-       <item>За 10 хвилин</item>
-       <item>За 15 хвилин</item>
-       <item>За 30 хвилин</item>
-       <item>За 1 годину</item>
-       <item>За 1 день</item>
-       <item>За 2 дні</item>
-       <item>За 1 тиждень</item>
-    </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-       <item>3 години</item>
-       <item>4 години</item>
-       <item>5 годин</item>
-       <item>6 годин</item>
-       <item>1 день</item>
     </string-array>
 </resources>

@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alphabet_chars">
+        <item>☆</item>
+        <item>А</item>
+        <item>Б</item>
+        <item>В</item>
+        <item>Г</item>
+        <item>Ґ</item>
+        <item>Д</item>
+        <item>Е</item>
+        <item>Є</item>
+        <item>Ж</item>
+        <item>З</item>
+        <item>И</item>
+        <item>І</item>
+        <item>Ї</item>
+        <item>Й</item>
+        <item>К</item>
+        <item>Л</item>
+        <item>М</item>
+        <item>Н</item>
+        <item>О</item>
+        <item>П</item>
+        <item>Р</item>
+        <item>С</item>
+        <item>Т</item>
+        <item>У</item>
+        <item>Ф</item>
+        <item>Х</item>
+        <item>Ц</item>
+        <item>Ч</item>
+        <item>Ш</item>
+        <item>Щ</item>
+        <item>Ю</item>
+        <item>Я</item>
+        <item>\#</item>
+        <item>∅</item>
+    </string-array>
     <string-array name="compose_modes">
         <item>Відповісти</item>
         <item>Відповісти всім</item>
@@ -28,21 +65,6 @@
         <item>Перейти до нового повідомлення</item>
         <item>Перейти до старого повідомлення</item>
         <item>Перейти до списку діалогів</item>
-    </string-array>
-    <string-array name="prefEntries_removal_action">
-        <item>Показувати архіви</item>
-        <item>Показувати видалені</item>
-        <item>Показувати архіви й видалені</item>
-    </string-array>
-    <string-array name="prefSummaries_autoAdvance">
-        <item>Показувати нове повідомлення після видалення</item>
-        <item>Показувати старе повідомлення після видалення</item>
-        <item>Показувати список діалогів після видалення</item>
-    </string-array>
-    <string-array name="prefSummaries_removal_action_summary">
-        <item>Показувати архіви</item>
-        <item>Показувати видалені</item>
-        <item>Показувати архіви й видалені</item>
     </string-array>
     <string-array name="signature_normal_string_array">
         <item>Блог:</item>
@@ -92,6 +114,21 @@
         <item>Відмова від відповідальності</item>
         <item>Відмова від відповідальності Email</item>
     </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>Показувати архіви</item>
+        <item>Показувати видалені</item>
+        <item>Показувати архіви й видалені</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Показувати нове повідомлення після видалення</item>
+        <item>Показувати старе повідомлення після видалення</item>
+        <item>Показувати список діалогів після видалення</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Показувати архіви</item>
+        <item>Показувати видалені</item>
+        <item>Показувати архіви й видалені</item>
+    </string-array>
     <string-array name="sync_status">
         <item>Готове</item>
         <item>"Немає з'єднання"</item>
@@ -99,42 +136,5 @@
         <item>Помилка безпеки</item>
         <item>Неможливо синхронізувати</item>
         <item>Помилка серверу</item>
-    </string-array>
-	<string-array name="alphabet_chars">
-       <item>☆</item>
-       <item>А</item>
-       <item>Б</item>
-       <item>В</item>
-       <item>Г</item>
-       <item>Ґ</item>
-       <item>Д</item>
-       <item>Е</item>
-       <item>Є</item>
-       <item>Ж</item>
-       <item>З</item>
-       <item>И</item>
-       <item>І</item>
-       <item>Ї</item>
-       <item>Й</item>
-       <item>К</item>
-       <item>Л</item>
-       <item>М</item>
-       <item>Н</item>
-       <item>О</item>
-       <item>П</item>
-       <item>Р</item>
-       <item>С</item>
-       <item>Т</item>
-       <item>У</item>
-       <item>Ф</item>
-       <item>Х</item>
-       <item>Ц</item>
-       <item>Ч</item>
-       <item>Ш</item>
-       <item>Щ</item>
-       <item>Ю</item>
-       <item>Я</item>
-       <item>\#</item>
-       <item>∅</item>
     </string-array>
 </resources>

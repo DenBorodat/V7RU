@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$d хв. тому</item>
+        <item quantity="zero">%1$d хв. тому</item>
+        <item quantity="one">%1$d хв. тому</item>
+        <item quantity="two">%1$d хв. тому</item>
+        <item quantity="few">%1$d хв. тому</item>
+        <item quantity="many">%1$d хв. тому</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$d г. тому</item>
+        <item quantity="zero">%1$d г. тому</item>
+        <item quantity="one">%1$d г. тому</item>
+        <item quantity="two">%1$d г. тому</item>
+        <item quantity="few">%1$d г. тому</item>
+        <item quantity="many">%1$d г. тому</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$d дн. тому</item>
+        <item quantity="zero">%1$d дн. тому</item>
+        <item quantity="one">%1$d дн. тому</item>
+        <item quantity="two">%1$d дн. тому</item>
+        <item quantity="few">%1$d дн. тому</item>
+        <item quantity="many">%1$d дн. тому</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Завантажень: %1$d</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Завантажень: %1$d</item>
+    </plurals>
+    <plurals name="million">
+        <item quantity="other">Завантажень: %1$d</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">Переглядів: %1$d</item>
+        <item quantity="zero">Переглядів: %1$d</item>
+        <item quantity="one">Переглядів: %1$d</item>
+        <item quantity="two">Переглядів: %1$d</item>
+        <item quantity="few">Переглядів: %1$d</item>
+        <item quantity="many">Переглядів: %1$d</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">Груп: %d</item>
+        <item quantity="one">Груп: %d</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">%d дн.</item>
         <item quantity="one">%d дн.</item>
@@ -39,9 +84,5 @@
     <plurals name="summary_app_update">
         <item quantity="other">Доступні оновлення застосунків: %d</item>
         <item quantity="one">Доступні оновлення застосунків: %d</item>
-    </plurals>
-	<plurals name="hint_similar_image_header_left">
-       <item quantity="other">Груп: %d</item>
-       <item quantity="one">Груп: %d</item>
     </plurals>
 </resources>

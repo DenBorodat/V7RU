@@ -49,8 +49,6 @@
     <string name="permdesc_bluetoothShareManager">Приложение получит доступ к диспетчеру обмена файлами по Bluetooth и сможет использовать его для передачи файлов</string>
     <string name="permlab_bluetoothWhitelist">Белый список доступа устройства Bluetooth</string>
     <string name="permdesc_bluetoothWhitelist">Разрешает приложениям временный дуступ к белому списку Bluetooth устройства. Позволяет устройствам отправлять файлы без подтверждения пользователя.</string>
-    <string name="permlab_handoverStatus">Получать BT передачи вещания</string>
-    <string name="permdesc_handoverStatus">Позволяет получать информацию статуса передачи Bluetooth</string>
     <string name="bt_share_picker_label">Bluetooth</string>
     <string name="unknown_device">Неизвестное устройство</string>
     <string name="unknownNumber">Неизвестный</string>
@@ -87,6 +85,9 @@
     <string name="download_line5">Получение файла…</string>
     <string name="download_cancel">Остановить</string>
     <string name="download_ok">Скрыть</string>
+    <string name="incoming_line1">От</string>
+    <string name="incoming_line2">Имя файла</string>
+    <string name="incoming_line3">Размер</string>
     <string name="download_fail_line1">Файл не получен</string>
     <string name="download_fail_line2">Файл: %1$s</string>
     <string name="download_fail_line3">Причина ошибки: %1$s</string>
@@ -166,6 +167,9 @@
     <string name="delete_record">Удалить запись</string>
     <string name="start_server">Запустить TCP-сервер</string>
     <string name="notify_server">Уведомить TCP-сервер</string>
+    <string name="airplane_can_not_share">Bluetooth нельзя использовать в режиме полета</string>
+    <string name="permlab_handoverStatus">Получать BT передачи вещания</string>
+    <string name="permdesc_handoverStatus">Позволяет получать информацию статуса передачи Bluetooth</string>
     <string name="ble_device_connected">Устройство подключено</string>
     <string name="bluetooth_no_devices_found">Устройсва по близости не найдены</string>
     <string name="bt_advanced_settings">Дополнительные настройки Bluetooth</string>
@@ -187,9 +191,20 @@
     <string name="profile_description_pan">Профиль личной сети</string>
     <string name="profile_description_sap">Профиль доступа к SIM</string>
     <string name="title_bt_mse_settings">Настройки Bluetooth MAP</string>
-    <string name="airplane_can_not_share">Bluetooth нельзя использовать в режиме полета</string>
     <string name="ble_device_unbind">Очистить настройки</string>
-    <string name="incoming_line1">От</string>
-    <string name="incoming_line2">Имя файла</string>
-    <string name="incoming_line3">Размер</string>
+    <string name="bluetooth_map_settings_app_icon">Иконка приложения</string>
+    <string name="bluetooth_map_settings_cancel">Отмена</string>
+    <string name="bluetooth_map_settings_count">Осталось слотов:</string>
+    <string name="bluetooth_map_settings_intro">Выберите аккаунты, которыми хотите поделиться через Bluetooth. Вы все еще должны принять любой доступ к аккаунтам при подключении.</string>
+    <string name="bluetooth_map_settings_no_account_slots_left">Нельзя выбрать аккаунт. Осталось 0 слотов.</string>
+    <string name="bluetooth_map_settings_save">Сохранить</string>
+    <string name="bluetooth_map_settings_title">Настройки обмена Bluetooth</string>
+    <string name="bluetooth_sap_notif_disconnect_button">Отключить</string>
+    <string name="bluetooth_sap_notif_disconnecting">Ожидание клиента для отключения</string>
+    <string name="bluetooth_sap_notif_force_disconnect_button">Отключить</string>
+    <string name="bluetooth_sap_notif_message">Запросить клиента на отключение?</string>
+    <string name="bluetooth_sap_notif_ticker">Доступ Bluetooth SIM</string>
+    <string name="bluetooth_sap_notif_title">Bluetooth SIM доступ</string>
+    <string name="permdesc_bluetoothAvrcpDataManager">Разрешить приложению доступ к менеджеру данных Bluetooth AVRCP и использовать его для отображения в интерфейсе</string>
+    <string name="permlab_bluetoothAvrcpDataManager">Доступ к метаданным avrcp</string>
 </resources>

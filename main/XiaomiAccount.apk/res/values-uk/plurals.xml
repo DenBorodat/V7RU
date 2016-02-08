@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="updated_contacts">
-        <item quantity="other">Оновлено контактів: %s</item>
-        <item quantity="one">Оновлено контактів: %s</item>
-    </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">Контактів: %d</item>
         <item quantity="one">Контактів: %d</item>
@@ -15,5 +11,9 @@
     <plurals name="dirty_note_count">
         <item quantity="other">Нотаток: %d</item>
         <item quantity="one">Нотаток: %d</item>
+    </plurals>
+    <plurals name="updated_contacts">
+        <item quantity="other">Оновлено контактів: %s</item>
+        <item quantity="one">Оновлено контактів: %s</item>
     </plurals>
 </resources>

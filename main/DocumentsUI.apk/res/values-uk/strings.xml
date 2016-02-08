@@ -13,6 +13,11 @@
     <string name="menu_save">Зберегти</string>
     <string name="menu_share">Надіслати</string>
     <string name="menu_delete">Видалити</string>
+    <string name="menu_select">Оберіть \"^1\"</string>
+    <string name="menu_advanced_show">Показати внутрішній накопичувач</string>
+    <string name="menu_advanced_hide">Скрыть внутренний накопитель</string>
+    <string name="menu_file_size_show">Показати розмір файлів</string>
+    <string name="menu_file_size_hide">Приховати розмір файлів</string>
     <string name="mode_selected_count">Вибрано: %1$d</string>
     <string name="sort_name">"ім'я"</string>
     <string name="sort_date">По даті</string>
@@ -28,16 +33,12 @@
     <string name="root_type_shortcut">Ярлики</string>
     <string name="root_type_device">Пристрої</string>
     <string name="root_type_apps">Інші програми</string>
-    <string name="pref_advanced_devices">Відображати інші пристрої</string>
-    <string name="pref_file_size">Відображати розмір файлу</string>
-    <string name="pref_device_size">Відображати розмір пристрою</string>
     <string name="empty">Порожньо</string>
     <string name="toast_no_application">Неможливо відкрити файл</string>
     <string name="toast_failed_delete">Неможливо видалити деякі елементи</string>
     <string name="share_via">Спосіб надсилання</string>
-    <string name="toast_not_show_thumbnail">"Не вистачає оперативної пам'яті для відображення ескізу"</string><string name="menu_advanced_hide">Скрыть внутренний накопитель</string>
-    <string name="menu_advanced_show">Показати внутрішній накопичувач</string>
-    <string name="menu_file_size_hide">Приховати розмір файлів</string>
-    <string name="menu_file_size_show">Показати розмір файлів</string>
-    <string name="menu_select">Оберіть \"^1\"</string>
+    <string name="pref_advanced_devices">Відображати інші пристрої</string>
+    <string name="pref_file_size">Відображати розмір файлу</string>
+    <string name="pref_device_size">Відображати розмір пристрою</string>
+    <string name="toast_not_show_thumbnail">"Не вистачає оперативної пам'яті для відображення ескізу"</string>
 </resources>

@@ -31,10 +31,8 @@
     <string name="cit_audio_loopback_dualmic_earpiece_title">Перевірка шумозаглушення мікрофона</string>
     <string name="cit_audio_lb_backmic_to_speaker_title">Задній мікрофон</string>
     <string name="cit_audio_lb_mainmic_to_earpiece_title">Основний мікрофон</string>
-    <string name="cit_x5_audio_lb_top_to_speaker_title">Верхній мікрофон</string>
     <string name="cit_audio_lb_phonecall_title">Імітація виклику</string>
     <string name="cit_audio_lb_topmic_to_speaker_title">Верхній мікрофон</string>
-    <string name="cit_x5_audio_lb_frontmic_to_speaker_title">Передній мікрофон</string>
     <string name="cit_headset_plug_detect_title">Гарнітура</string>
     <string name="cit_headset_button_check_title">Клавіші гарнітури</string>
     <string name="cit_headset_loopback_check_title">Зворотній звязок гарнітури</string>
@@ -55,6 +53,7 @@
     <string name="cit_tool_modem_offline_log">Відкрити/закрити офлайн журнал</string>
     <string name="cit_tool_modem_exit_ftm">Вийти з режиму FTM</string>
     <string name="cit_tool_modem_bugreport">Дамп памяті модему</string>
+    <string name="cit_tool_modem_mbn">Змінити налаштування модему</string>
     <string name="cit_tool_nfc">Інструменти NFC</string>
     <string name="cit_tool_nfc_st_confreq">Частота:</string>
     <string name="cit_tool_nfc_st_run">Запуск</string>
@@ -65,6 +64,7 @@
     <string name="cit_touch_calib_pass">Натискайте на точки для калібрування</string>
     <string name="cit_touch_calib_fail">Помилка калібрування. Запустіть калібрування знову.</string>
     <string name="cit_touch_calib_instruction">Почати калібрування</string>
+    <string name="cit_external_sd_check_title">Статус SD-карти</string>
     <string name="cit_version_check_summary">"Версія ПО
 Перевірте дані, виділені зеленим кольором."</string>
     <string name="cit_proximity_sensor_check_summary">Перевірка датчика наближення</string>
@@ -103,18 +103,12 @@
     <string name="cit_audio_lb_summary_backmic_to_speaker">"Перевірка заднього мікрофона на зворотний звязок.
 
 Говоріть у задній мікрофон, ви повинні почути свій голос з динаміка."</string>
-    <string name="cit_x5_audio_lb_summary_topmic_to_speaker">"Тест верхнього мікрофону.
-
-Говоріть у верхній мікрофон і ви повинні почути свій голос з динаміку."</string>
     <string name="cit_audio_lb_summary_phonecall">"Імітація виклику.
 
 Тримайте телефон коло вуха, ніби то ви здійснюєте виклик, говоріть в основний мікрофон і ви повинні почути голос з динаміку. Рекомендується тестувати в тиші."</string>
     <string name="cit_audio_lb_summary_topmic_to_speaker">"Перевірка верхнього мікрофону на зворотній зв'язок.
 
 Говоріть у верхній мікрофон і ви повинні почути свій голос з динамику."</string>
-    <string name="cit_x5_audio_lb_summary_frontmic_to_speaker">"Тест переднього мікрофону.
-
-Говоріть у передній микрофон і ви повинні почути свій голос з динаміку."</string>
     <string name="cit_sd_plugin_check_summary">Текст \"SD карту виявлено, тепер вийміть її\" повинен відображатися нижче.</string>
     <string name="cit_sd_plugout_check_summary">Після витягування SD карти, текст \"SD карта витягнута, тепер підключіть її\" повинен відображатися нижче.</string>
     <string name="cit_keyboard_test_summary">"Перевірка натисків клавіш.
@@ -163,6 +157,7 @@
     <string name="cit_audio_calibrating">Продовжується калібрування…</string>
     <string name="cit_OTG_plugin_check_summary">Коли OTG пристрій буде підключено, текст \"Вимкніть USB OTG пристрій\" буде відображатися нижче.</string>
     <string name="cit_OTG_plugout_check_summary">Коли OTG пристрій буде вимкнено, текст \"Вимкніть USB OTG пристрій\" буде відображатися нижче.</string>
+    <string name="cit_external_sd_check_summary">Перевірка виявлення SD-карти</string>
     <string name="cit_vibrator_short">Коротка</string>
     <string name="cit_vibrator_long">Довга</string>
     <string name="cit_vibrator_show_advanced">Розширені параметри</string>
@@ -286,6 +281,7 @@
     <string name="cit_tool_log_logcat">ADB звіт</string>
     <string name="cit_tool_enable_3A_log">Увімкнути звіт 3A</string>
     <string name="cit_tool_log_ril">RIL звіт</string>
+    <string name="cit_tool_log_dmesg">DMESG</string>
     <string name="cit_tool_log_modem">Звіт модему</string>
     <string name="cit_tool_log_kmsg">Останній звіт ядра</string>
     <string name="cit_tool_log_bugreport">Звіт про помилку</string>
@@ -328,16 +324,20 @@
     <string name="cit_tool_wifi_rx_ap_not_null">Імя або тип AP не може бути порожнім</string>
     <string name="cit_tool_wifi_rx_ap_type_error">Помилка AP, введіть заново (bss/adhoc)</string>
     <string name="cit_tool_wifi_rx_total_format">Усього передано: %s</string>
-    <string name="cit_external_sd_check_summary">Перевірка виявлення SD-карти</string>
-    <string name="cit_external_sd_check_title">Статус SD-карти</string>
     <string name="cit_tool_modem_evdo_revb">Увімкнути/вимкнути EVDO</string>
+    <string name="cit_x5_audio_lb_topmic_to_speaker_title">Тест верхнього мікрофону</string>
+    <string name="cit_x5_audio_lb_frontmic_to_speaker_title">Передній мікрофон</string>
+    <string name="cit_x5_audio_lb_summary_topmic_to_speaker">"Тест верхнього мікрофону.
+
+Говоріть у верхній мікрофон і ви повинні почути свій голос з динаміку."</string>
+    <string name="cit_x5_audio_lb_summary_frontmic_to_speaker">"Тест переднього мікрофону.
+
+Говоріть у передній микрофон і ви повинні почути свій голос з динаміку."</string>
     <string name="cit_audio_loopback_dualmic_title">Приглушення шуму</string>
     <string name="cit_audio_loopback_summary_dualmic">"Тест приглушення шуму
 
 Поверніть пристрій, щоб вхід для навушників був знизу. Говоріть у мікрофон. Ви повинні почути ваш голос з приглушенням шуму на задньому плані."</string>
     <string name="cit_sd_plug_check_summary">Тест буде визначати статус SD-карти. Підключіть та відключіть SD-карту один раз.</string>
     <string name="cit_sd_plug_check_title">Визначення SD-карти</string>
-	<string name="cit_tool_log_dmesg">DMESG</string>
-    <string name="cit_tool_modem_mbn">Змінити налаштування модему</string>
-    <string name="cit_x5_audio_lb_topmic_to_speaker_title">Тест верхнього мікрофону</string>
+    <string name="cit_x5_audio_lb_top_to_speaker_title">Верхній мікрофон</string>
 </resources>

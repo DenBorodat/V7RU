@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Отзывы</string>
+    <string name="logo_title">Отчеты об ошибках</string>
     <string name="report_miui">Отчет об ошибке</string>
     <string name="menu_copy">Копировать</string>
     <string name="description">Описание (обязательно)</string>
@@ -81,7 +82,7 @@
     <string name="modem_tool_log_start_toast">Запущено создание отчета радиомодуля в %s</string>
     <string name="modem_tool_log_stop_toast">Остановлено создание отчета радиомодуля из %s</string>
     <string name="bugreport_dump_start_notification_title">Создание отчета</string>
-    <string name="bugreport_dump_start_notification_summary">Это займет некоторое время</string>
+    <string name="bugreport_dump_start_notification_summary">"Сбор информации "</string>
     <string name="bugreport_dump_complete_notification_title">Отчет создан</string>
     <string name="bugreport_dump_complete_notification_summary">Нажмите для просмотра</string>
     <string name="plus_one_submit_dialog_content">Ваш отзыв и журнал ошибок будут отправлены на сервер Xiaomi</string>

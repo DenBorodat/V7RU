@@ -2,6 +2,7 @@
 <resources>
     <string name="app_label">Широкомовні повідомлення</string>
     <string name="sms_cb_settings">Налаштування передачі повідомлень</string>
+    <string name="cell_broadcast_settings_not_available">Налаштування сповіщення населення недоступні цьому користувачеві</string>
     <string name="button_dismiss">OK</string>
     <string name="no_cell_broadcasts">У вашому районі немає активних повідомлень. Ви можете змінити параметри оповіщень в Меню > Налаштування.</string>
     <string name="menu_preferences">Налаштування</string>
@@ -49,11 +50,8 @@
     <string name="enable_alert_vibrate_title">Вібрація</string>
     <string name="enable_alert_vibrate_summary">Вібрувати при отриманні оповіщення</string>
     <string name="category_brazil_settings_title">Налаштування для Бразилії</string>
-    <string name="category_india_settings_title">Налаштування для Індії</string>
     <string name="enable_channel_50_alerts_title">Показати трансляції каналу 50</string>
     <string name="enable_channel_50_alerts_summary">Канал 50 використовується в Бразилії для аварійного оповіщення</string>
-    <string name="enable_channel_60_alerts_title">Показувати канал 60</string>
-    <string name="enable_channel_60_alerts_summary">Канал 60 використовується в Індії для отримання конкретної інформації оператора</string>
     <string name="category_dev_settings_title">Опції розробника</string>
     <string name="cmas_category_heading">Категорії:</string>
     <string name="cmas_category_geo">Геофізичні</string>
@@ -94,5 +92,7 @@
     <string name="cmas_opt_out_dialog_text">Ви отримали екстрене оповіщення. Продовжити отримувати екстрені оповіщення надалі?</string>
     <string name="cmas_opt_out_button_yes">OK</string>
     <string name="cmas_opt_out_button_no">Скасувати</string>
-	<string name="cell_broadcast_settings_not_available">Налаштування сповіщення населення недоступні цьому користувачеві</string>
+    <string name="enable_channel_60_alerts_title">Показувати канал 60</string>
+    <string name="enable_channel_60_alerts_summary">Канал 60 використовується в Індії для отримання конкретної інформації оператора</string>
+    <string name="category_india_settings_title">Налаштування для Індії</string>
 </resources>

@@ -29,13 +29,6 @@
         <item>Морозний дощ</item>
         <item>Немає даних</item>
     </string-array>
-    <string-array name="weather_indexes_uv_level">
-        <item>Низький</item>
-        <item>Середній</item>
-        <item>Помірний</item>
-        <item>Високий</item>
-        <item>Небезпечний</item>
-    </string-array>
     <string-array name="wind_direction">
         <item>Вітер З</item>
         <item>Вітер ПС</item>
@@ -45,6 +38,13 @@
         <item>Вітер ПС</item>
         <item>Вітер З</item>
         <item>Вітер ПЗ</item>
+    </string-array>
+    <string-array name="weather_indexes_uv_level">
+        <item>Низький</item>
+        <item>Середній</item>
+        <item>Помірний</item>
+        <item>Високий</item>
+        <item>Небезпечний</item>
     </string-array>
     <string-array name="moon_desc">
         <item>Новий місяць</item>

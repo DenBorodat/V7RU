@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="calendar" size="4:4">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Calendar</title>
+	<titles>
+		<title locale="zh_CN">日历</title>
+		<title locale="zh_TW">日曆</title>
+		<title locale="ru_RU">Календарь</title>
+		<title locale="uk_UA">Календар</title>
+	</titles>
+</MIUI-Theme>

@@ -52,6 +52,10 @@
         <item quantity="other">Выбрано: %1$d</item>
         <item quantity="one">Выбрано: %1$d</item>
     </plurals>
+    <plurals name="number_of_items_available">
+        <item quantity="other">Осталось: %1$d</item>
+        <item quantity="one">Осталось: %1$d</item>
+    </plurals>
     <plurals name="pick_favorites_list_title">
         <item quantity="other">Избранных: %1$d</item>
         <item quantity="one">Избранных: %1$d</item>
@@ -112,6 +116,10 @@
     <plurals name="dlg_remove_blacklist">
         <item quantity="other">Разблокировать номера? (%1$d)</item>
         <item quantity="one">Разблокировать номер?</item>
+    </plurals>
+    <plurals name="voip_contacts_count">
+        <item quantity="other">Контактов: %1$d</item>
+        <item quantity="one">Контактов: %1$d</item>
     </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">| Гудков: %d</item>

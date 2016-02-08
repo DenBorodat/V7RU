@@ -86,8 +86,10 @@
     <string name="pref_title_common">ОБЩИЕ НАСТРОЙКИ</string>
     <string name="pref_title_alarm_when_silent">Оповещения в режиме без звука</string>
     <string name="pref_desc_alarm_when_silent">Сигналы будильника и заметок будут играть в режиме без звука</string>
+    <string name="pref_title_recover_help">Восстановление заметок</string>
     <string name="dlg_title_confirm_alarm_silent">Отключение сигналов</string>
     <string name="dlg_desc_confirm_alarm_silent">После отключения, сигналы будильника и заметок не будут играть в режиме без звука</string>
+    <string name="dlg_delete_message">Удаление…</string>
     <string name="permlab_accessNote">Доступ к заметкам</string>
     <string name="permdesc_accessNote">Вредоносные программы могут использовать это, чтобы получить доступ к Вашей личной информации.</string>
     <string name="undo">Отменить</string>

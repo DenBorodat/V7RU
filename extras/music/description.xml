@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="player" size="4:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Music</title>
+	<titles>
+		<title locale="zh_CN">音乐</title>
+		<title locale="zh_TW">音樂</title>
+		<title locale="ru_RU">Музыка 2x4</title>
+		<title locale="uk_UA">Музика 2x4</title>
+	</titles>
+</MIUI-Theme>

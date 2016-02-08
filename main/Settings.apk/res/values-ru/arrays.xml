@@ -132,6 +132,14 @@
         <item>Включен при зарядке</item>
         <item>Выключен</item>
     </string-array>
+    <string-array name="data_usage_data_range">
+        <item>За последние 30 дней</item>
+        <item>Цикл использования данных</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Последние 4 цифры</item>
+        <item>Первые 4 цифры</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Автоматически</item>
         <item>5 ГГц</item>
@@ -161,15 +169,7 @@
     <string-array name="wifi_proxy_settings">
         <item>Нет</item>
         <item>Вручную</item>
-    </string-array>
-    <string-array name="emergency_tone_entries">
-        <item>Отключено</item>
-        <item>Сигнал</item>
-        <item>Вибрация</item>
-    </string-array>
-    <string-array name="special_locale_names">
-        <item>Китайский (упрощенный)</item>
-        <item>Китайский (традиционный)</item>
+        <item>Автонастройка прокси</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>Нет</item>
@@ -193,12 +193,18 @@
         <item>SD карта</item>
         <item>Автоматически</item>
     </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Разрешить</item>
+        <item>Игнорировать</item>
+        <item>Запрашивать</item>
+    </string-array>
     <string-array name="app_ops_categories">
         <item>Местоположение</item>
         <item>Личные данные</item>
         <item>Сообщения</item>
         <item>Медиа</item>
         <item>Устройство</item>
+        <item>Включение</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>неточное определение местоположения</item>
@@ -244,6 +250,23 @@
         <item>не выключать экран</item>
         <item>определение местоположения</item>
         <item>определение точного местоположения</item>
+        <item>получение статистики использования</item>
+        <item>включение и выключение микрофона</item>
+        <item>всплывающее окна</item>
+        <item>проекция медиа</item>
+        <item>активация VPN</item>
+        <item>изменение Wi-Fi</item>
+        <item>изменение bluetooth</item>
+        <item>отправка MMS</item>
+        <item>чтение MMS</item>
+        <item>запись MMS</item>
+        <item>автозапуск</item>
+        <item>изменение nfc</item>
+        <item>удаление SMS</item>
+        <item>удаление MMS</item>
+        <item>удаление контактов</item>
+        <item>удаление журнала вызовов</item>
+        <item>изменение интернета</item>
     </string-array>
     <string-array name="app_ops_labels">
         <item>Местоположение</item>
@@ -289,6 +312,23 @@
         <item>Не выключать экран</item>
         <item>Местоположение</item>
         <item>Местоположение</item>
+        <item>Получить статистику использования</item>
+        <item>Включение и выключение микрофона</item>
+        <item>Всплывающее окно</item>
+        <item>Проекция медиа</item>
+        <item>Активация VPN</item>
+        <item>Изменение Wi-Fi</item>
+        <item>Изменение Bluetooth</item>
+        <item>Отправка MMS</item>
+        <item>Чтение MMS</item>
+        <item>Запись MMS</item>
+        <item>Автозапуск</item>
+        <item>Изменение Nfc</item>
+        <item>Удаление SMS</item>
+        <item>Удаление MMS</item>
+        <item>Удаление контактов</item>
+        <item>Удаление журнала вызовов</item>
+        <item>Изменение интернета</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
         <item>Небольшая</item>
@@ -303,26 +343,39 @@
         <item>Очень большой</item>
     </string-array>
     <string-array name="captioning_edge_type_selector_titles">
+        <item>По умолчанию</item>
         <item>Нет</item>
         <item>Контур</item>
         <item>Тень</item>
+        <item>Поднятый</item>
+        <item>Пониженный</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
+        <item>По умолчанию</item>
         <item>Белый на черном</item>
         <item>Черный на белом</item>
         <item>Желтый на черном</item>
         <item>Желтый на синем</item>
         <item>Пользовательский</item>
     </string-array>
-    <string-array name="select_runtime_titles">
-        <item>Dalvik</item>
-        <item>ART</item>
-        <item>ART (debug)</item>
+    <string-array name="select_logd_size_titles">
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+        <item>4 Мб</item>
+        <item>16 Мб</item>
     </string-array>
-    <string-array name="select_runtime_summaries">
-        <item>Использовать Dalvik</item>
-        <item>Использовать ART</item>
-        <item>Использовать отладочный ART</item>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Буфер: макс. 64 КБ</item>
+        <item>Буфер: макс. 256 КБ</item>
+        <item>Буфер: макс. 1 МБ</item>
+        <item>Буфер: макс. 4 МБ</item>
+        <item>Буфер: макс. 16 МБ</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Никогда не проверять</item>
@@ -385,14 +438,12 @@
     <string-array name="track_frame_time_entries">
         <item>Отключить</item>
         <item>На экране в виде полос</item>
-        <item>На экране в виде линий</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Выключено</item>
         <item>Показывать область отрисовывания</item>
         <item>Показывать область Deuteranomaly</item>
-        <item>Показывать контур отрисовывания</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Стандартное ограничение</item>
@@ -436,6 +487,33 @@
         <item>низкий</item>
         <item>критический</item>
     </string-array>
+    <string-array name="entries_zen_mode">
+        <item>ВЫКЛ</item>
+        <item>Ограниченное число прерываний</item>
+        <item>Без прерываний</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Нормальное</item>
+        <item>Умеренное</item>
+        <item>Низкое</item>
+        <item>Высокое</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Стабильное</item>
+        <item>Наиболее частое действие</item>
+        <item>Важное (активный режим)</item>
+        <item>Важное (фоновый режим)</item>
+        <item>Резервное копирование</item>
+        <item>Большой объем данных</item>
+        <item>Служба (работает)</item>
+        <item>Служба (перезапуск)</item>
+        <item>Получатель</item>
+        <item>Главная</item>
+        <item>Последнее действие</item>
+        <item>Кешировано (действие)</item>
+        <item>Кешировано (клиент)</item>
+        <item>Кешировано (пусто)</item>
+    </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Сильный</item>
         <item>Средний</item>
@@ -471,15 +549,6 @@
         <item>8 секунд</item>
         <item>9 секунд</item>
     </string-array>
-    <string-array name="led_color_entries">
-        <item>Синий</item>
-        <item>Красный</item>
-        <item>Желтый</item>
-        <item>Зеленый</item>
-        <item>Голубой</item>
-        <item>Белый</item>
-        <item>Фиолетовый</item>
-    </string-array>
     <string-array name="mi1_led_color_entries">
         <item>Синий</item>
         <item>Красный</item>
@@ -488,12 +557,14 @@
         <item>Фиолетовый</item>
         <item>Пурпурный</item>
     </string-array>
-    <string-array name="pink_panel_led_color_entries">
-        <item>Фиолетовый</item>
+    <string-array name="led_color_entries">
+        <item>Синий</item>
         <item>Красный</item>
         <item>Желтый</item>
         <item>Зеленый</item>
-        <item>Пурпурный</item>
+        <item>Голубой</item>
+        <item>Белый</item>
+        <item>Фиолетовый</item>
     </string-array>
     <string-array name="screen_key_press_action">
         <item>Недавние приложения</item>
@@ -607,6 +678,10 @@
         <item>Подключение вручную</item>
         <item>Всегда спрашивать</item>
     </string-array>
+    <string-array name="wifi_ssid_type_entries">
+        <item>Автоматическое подключение</item>
+        <item>Ручное подключение</item>
+    </string-array>
     <string-array name="slideshow_time_entries">
         <item>5 минут</item>
         <item>15 минут</item>
@@ -647,11 +722,6 @@
         <item>Средняя</item>
         <item>Высокая</item>
     </string-array>
-    <string-array name="handy_mode_size_text_entries">
-        <item>4.5 дюйма</item>
-        <item>4.0 дюйма</item>
-        <item>3.5 дюйма</item>
-    </string-array>
     <string-array name="agps_network_entries">
         <item>Домашняя сеть</item>
         <item>Все сети</item>
@@ -661,13 +731,10 @@
         <item>ТЕПЛЫЙ</item>
         <item>ХОЛОДНЫЙ</item>
     </string-array>
-    <string-array name="install_non_market_app_entries">
-        <item>Запрашивать</item>
-        <item>Разрешить</item>
-    </string-array>
-    <string-array name="install_non_market_app_contents">
-        <item>Запрашивать</item>
-        <item>Разрешить</item>
+    <string-array name="handy_mode_size_text_entries">
+        <item>4.5 дюйма</item>
+        <item>4.0 дюйма</item>
+        <item>3.5 дюйма</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>сразу</item>
@@ -678,16 +745,25 @@
         <item>через 30 минут</item>
     </string-array>
     <string-array name="fluency_mode_entries">
-        <item>Отключить системную анимацию</item>
-        <item>Включить системную анимацию</item>
+        <item>Не показывать</item>
+        <item>Показывать</item>
     </string-array>
     <string-array name="fluency_mode_summaries">
-        <item>Для слабых устройств</item>
-        <item>Для производительных устройств</item>
+        <item>Отключение может повысить производительность</item>
+        <item>Включение может снизить производительность</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
-        <item>Перезагрузить устройство для применения настроек?</item>
-        <item>Перезагрузить устройство для применения настроек?</item>
+        <item>Перезагрузить устройство для применения?</item>
+        <item>Перезагрузить устройство для применения?</item>
+    </string-array>
+    <string-array name="screen_resolution_entries">
+        <item>Ультравысокое (2K)</item>
+        <item>Обычное (720P)</item>
+    </string-array>
+    <string-array name="common_password_business_names">
+        <item>Экран блокировки</item>
+        <item>Детский режим</item>
+        <item>Проводник</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Ежедневно</item>
@@ -699,51 +775,43 @@
         <item>По выходным</item>
         <item>Выбрать дни</item>
     </string-array>
+    <string-array name="pink_panel_led_color_entries">
+        <item>Фиолетовый</item>
+        <item>Красный</item>
+        <item>Желтый</item>
+        <item>Зеленый</item>
+        <item>Пурпурный</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Отключено</item>
+        <item>Сигнал</item>
+        <item>Вибрация</item>
+    </string-array>
     <string-array name="miracast_policies">
         <item>Производительность</item>
         <item>Баланс</item>
         <item>Качество</item>
     </string-array>
-    <string-array name="data_usage_data_range">
-        <item>За последние 30 дней</item>
-        <item>Цикл использования данных</item>
+    <string-array name="select_runtime_summaries">
+        <item>Использовать Dalvik</item>
+        <item>Использовать ART</item>
+        <item>Использовать отладочный ART</item>
     </string-array>
-    <string-array name="entries_zen_mode">
-        <item>ВЫКЛ</item>
-        <item>Ограниченное число прерываний</item>
-        <item>Без прерываний</item>
+    <string-array name="select_runtime_titles">
+        <item>Dalvik</item>
+        <item>ART</item>
+        <item>ART (debug)</item>
     </string-array>
-    <string-array name="proc_stats_memory_states">
-        <item>Нормальное</item>
-        <item>Умеренное</item>
-        <item>Низкое</item>
-        <item>Высокое</item>
+    <string-array name="special_locale_names">
+        <item>Китайский (упрощенный)</item>
+        <item>Китайский (традиционный)</item>
     </string-array>
-    <string-array name="proc_stats_process_states">
-        <item>Стабильное</item>
-        <item>Наиболее частое действие</item>
-        <item>Важное (активный режим)</item>
-        <item>Важное (фоновый режим)</item>
-        <item>Резервное копирование</item>
-        <item>Большой объем данных</item>
-        <item>Служба (работает)</item>
-        <item>Служба (перезапуск)</item>
-        <item>Получатель</item>
-        <item>Главная</item>
-        <item>Последнее действие</item>
-        <item>Кешировано (действие)</item>
-        <item>Кешировано (клиент)</item>
-        <item>Кешировано (пусто)</item>
+    <string-array name="install_non_market_app_entries">
+        <item>Запрашивать</item>
+        <item>Разрешить</item>
     </string-array>
-    <string-array name="select_logd_size_summaries">
-        <item>Буфер: макс. 64 КБ</item>
-        <item>Буфер: макс. 256 КБ</item>
-        <item>Буфер: макс. 1 МБ</item>
-        <item>Буфер: макс. 4 МБ</item>
-        <item>Буфер: макс. 16 МБ</item>
-    </string-array>
-    <string-array name="screen_resolution_entries">
-        <item>Ультравысокое (2K)</item>
-        <item>Обычное (720P)</item>
+    <string-array name="install_non_market_app_contents">
+        <item>Запрашивать</item>
+        <item>Разрешить</item>
     </string-array>
 </resources>

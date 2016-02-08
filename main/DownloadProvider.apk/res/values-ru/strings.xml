@@ -10,7 +10,7 @@
     <string name="privacy_tip_ok">ОК</string>
     <string name="privacy_notif_title">Сервис Xunlei</string>
     <string name="privacy_notif_content">Нажмите для просмотра информации</string>
-    <string name="notif_text_engine_on">Запуск службы…</string>
+    <string name="notif_text_engine_on">Ускорение…</string>
     <string name="notif_text_engine_off">Сервис Xunlei выключен</string>
     <string name="notif_title_single_downloading">Загрузка %1$s</string>
     <string name="notif_title_multiple_downloading">Загрузка %1$d файлов</string>
@@ -25,16 +25,17 @@
     <string name="notification_download_failed">Не удалось загрузить файл</string>
     <string name="notification_download_success_more">Загружено: %1$d</string>
     <string name="notification_download_failed_more">Не удалось загрузить: %1$d</string>
-    <string name="recommended_file_one_in_mobile">При загрузке этих файлов (%s) по мобильному интернету может взиматься дополнительная плата за трафик</string>
-    <string name="recommended_file_more_in_mobile" formatted="false">При загрузке этих файлов (%s, %s) по мобильному интернету может взиматься дополнительная плата за трафик</string>
-    <string name="recommended_file_size_download_in_mobile" formatted="false">"Сеть Wi-Fi не подключена. %s
-
-Не удается получить информацию о размере файла. Для загрузки файла по мобильному интернету нажмите \"%s\". Для ожидания загрузки по сети Wi-Fi нажмите \"%s\"."</string>
-    <string name="recommended_no_file_size_download_in_mobile" formatted="false">Не удается получить информацию о размере файла. Для загрузки файла по мобильному интернету нажмите \"%s\". Для ожидания загрузки по сети Wi-Fi нажмите \"%s\".</string>
+    <string name="mobile_recommended_title">Мобильный интернет</string>
+    <string name="recommended_file_size_download_in_mobile">Использовать %s мобильного трафика для загрузки файла?</string>
+    <string name="recommended_no_file_size_download_in_mobile">Использовать мобильный трафик для загрузки файла?</string>
     <string name="button_wait_for_wifi">Ждать</string>
     <string name="button_download_now">Скачать</string>
     <string name="insufficient_space">Недостаточно памяти для загрузки</string>
     <string name="enter_garbage_clean">Очистка памяти</string>
+    <string name="download_apk_desktop_pending">Ожидание…</string>
+    <string name="download_apk_desktop_pause">Пауза</string>
+    <string name="download_apk_desktop_running">Загрузка…</string>
+    <string name="download_apk_desktop_installing">Установка…</string>
     <string name="app_label">Диспетчер загрузок</string>
     <string name="permlab_downloadManager">Доступ к менеджеру загрузки</string>
     <string name="permdesc_downloadManager">Приложение получит доступ к диспетчеру загрузок и сможет загружать файлы через него. Вредоносные программы смогут таким образом прерывать загрузки и просматривать личную информацию</string>
@@ -74,4 +75,6 @@
     <string name="download_running">В процессе</string>
     <string name="download_error">Ошибка загрузки</string>
     <string name="download_running_percent">Процесс: %d%%</string>
+    <string name="recommended_file_more_in_mobile" formatted="false">При загрузке этих файлов (%s, %s) по мобильному интернету может взиматься дополнительная плата за трафик</string>
+    <string name="recommended_file_one_in_mobile">При загрузке этих файлов (%s) по мобильному интернету может взиматься дополнительная плата за трафик</string>
 </resources>

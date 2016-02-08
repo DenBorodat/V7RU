@@ -16,6 +16,28 @@
     <string name="notif_title_multiple_downloading">Завантаження файлів: %1$d</string>
     <string name="notif_title_file_size">Размір: %1$d</string>
     <string name="paused_waiting_for_network">Очікування мережі</string>
+    <string name="warning_tip_title">Попередження про трафік</string>
+    <string name="warning_tip_content">При завантажені файлів по мобільному інтернету може стягуватись додаткова плата оператором. Припинити завантаження?</string>
+    <string name="warning_tip_cancel">Скасувати</string>
+    <string name="warning_tip_ok">ОК</string>
+    <string name="dialog_not_show_again">"Запам'ятати"</string>
+    <string name="notification_download_complete">Завантаження завершено</string>
+    <string name="notification_download_failed">Не вдалося завантажити файл</string>
+    <string name="notification_download_success_more">Завантажено файлів: %1$d</string>
+    <string name="notification_download_failed_more">Не вдалося завантажити: %1$d</string>
+    <string name="mobile_recommended_title">Використовувати мобільні дані</string>
+    <string name="recommended_file_size_download_in_mobile" formatted="false">"Мережа Wi-Fi не підключена. %s
+
+Не вдалося отримати інформацію про розмір файлу. Для завантаження через мобільний трафік натисніть \"%s\". Щоб зачекати завантаження через Wi-Fi натисніть \"%s\"."</string>
+    <string name="recommended_no_file_size_download_in_mobile" formatted="false">Не вдалося отримати інформацію про розмір файлу. Для завантаження через мобільний трафік натисніть \"%s\". Щоб зачекати завантаження через Wi-Fi натисніть \"%s\".</string>
+    <string name="button_wait_for_wifi">Очікувати</string>
+    <string name="button_download_now">Завантажити</string>
+    <string name="insufficient_space">"Недостатньо пам'яті для завантаження"</string>
+    <string name="enter_garbage_clean">"Очищення пам'яті"</string>
+    <string name="download_apk_desktop_pending">Очікування…</string>
+    <string name="download_apk_desktop_pause">Пауза</string>
+    <string name="download_apk_desktop_running">Завантаження…</string>
+    <string name="download_apk_desktop_installing">Встановлення…</string>
     <string name="app_label">Диспетчер завантаження</string>
     <string name="permlab_downloadManager">Доступ до менеджера завантаження</string>
     <string name="permdesc_downloadManager">Застосунок отримає доступ до диспетчера завантажень і зможе завантажувати файли через нього. Шкідливі програми зможуть таким чином переривати завантаження і переглядати особисту інформацію</string>
@@ -32,8 +54,6 @@
     <string name="permlab_accessAllDownloads">Доступ до всіх завантажень</string>
     <string name="permdesc_accessAllDownloads">Застосунок зможе відкривати і змінювати завантаження незалежно від того, через який ПО вони були завантажені</string>
     <string name="download_unknown_title">&lt;без назви></string>
-    <string name="notification_download_complete">Завантаження завершено</string>
-    <string name="notification_download_failed">Не вдалося завантажити файл</string>
     <string name="notification_need_wifi_for_size">Очікування мережі Wi-Fi</string>
     <string name="notification_paused_in_background">Завантаження припинено</string>
     <string name="wifi_required_title">Занадто великий файл для мережі оператора</string>
@@ -55,24 +75,9 @@
     <string name="download_running">У процесі</string>
     <string name="download_error">Помилка завантаження</string>
     <string name="download_running_percent">Процес: %d%%</string>
-	<string name="dialog_not_show_again">"Запам'ятати"</string>
-    <string name="notification_download_failed_more">Не вдалося завантажити: %1$d</string>
-    <string name="notification_download_success_more">Завантажено файлів: %1$d</string>
-    <string name="warning_tip_cancel">Скасувати</string>
-    <string name="warning_tip_content">При завантажені файлів по мобільному інтернету може стягуватись додаткова плата оператором. Припинити завантаження?</string>
-    <string name="warning_tip_ok">ОК</string>
-    <string name="warning_tip_title">Попередження про трафік</string>
-	<string name="button_download_now">Завантажити</string>
-    <string name="button_wait_for_wifi">Очікувати</string>
-    <string name="enter_garbage_clean">"Очищення пам'яті"</string>
-    <string name="insufficient_space">"Недостатньо пам'яті для завантаження"</string>
     <string name="recommended_file_more_in_mobile" formatted="false">При завантаженні цих файлів (%s, %s) через мобільний трафік може стягуватися додаткова плата</string>
     <string name="recommended_file_one_in_mobile">При завантаженні цих файлів (%s) через мобільний трафік може стягуватися додаткова плата</string>
-    <string name="recommended_file_size_download_in_mobile" formatted="false">"Мережа Wi-Fi не підключена. %s
-
-Не вдалося отримати інформацію про розмір файлу. Для завантаження через мобільний трафік натисніть \"%s\". Щоб зачекати завантаження через Wi-Fi натисніть \"%s\"."</string>
-    <string name="recommended_no_file_size_download_in_mobile" formatted="false">Не вдалося отримати інформацію про розмір файлу. Для завантаження через мобільний трафік натисніть \"%s\". Щоб зачекати завантаження через Wi-Fi натисніть \"%s\".</string>
-	<string name="about">Про застосунок</string>
+    <string name="about">Про застосунок</string>
     <string name="action_settings">Налаштування</string>
     <string name="app_name">Провідник</string>
     <string name="auth_fail">Помилка авторизації</string>

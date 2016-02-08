@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="slider_text">Вимкнути</string>
+    <string name="snooze_confirm_cancel">Вимкнути</string>
+    <string name="timer_alarm_cancel_pad">Натисніть на екран, щоб зупинити сигнал</string>
+    <string name="timer_alarm_alert_pad">%s</string>
     <string name="common_settings">Загальне</string>
     <string name="alarm_settings">Додаткові</string>
     <string name="edit_systemtime">Налаштування дати і часу</string>
@@ -37,10 +41,7 @@
     <string name="vibrate_when_ringing">Вібрувати при сигналі</string>
     <string name="start_up">Старт</string>
     <string name="cancel">Очистити</string>
-    <string name="timer_message_00">%1$d хв. %2$d сек.</string>
-    <string name="timer_message_01">%1$d хв. і %2$d сек.</string>
-    <string name="timer_message_10">%1$d хв. і %2$d сек.</string>
-    <string name="timer_message">Таймер на %1$d хв. і %2$d сек.</string>
+    <string name="timer_item_picker_hour">Г</string>
     <string name="timer_item_picker_minute">хв.</string>
     <string name="timer_item_picker_second">сек.</string>
     <string name="timer_item_duration_display">%1$d хв. %2$d сек.</string>
@@ -54,7 +55,7 @@
     <string name="lap_num">Коло</string>
     <string name="hour_unit">г</string>
     <string name="alarm_label_hint">Опис будильника</string>
-    <string name="legal_workday">"Робочі дні"</string>
+    <string name="legal_workday">Робочі дні</string>
     <string name="legal_workday_invalidate">Робочі дні (будильник дзвонитиме пн-пт)</string>
     <string name="legal_workday_invalidate_message">(оновлення бази)</string>
     <string name="legal_workday_message">(вимкнений у свята)</string>
@@ -62,10 +63,16 @@
     <string name="default_alarm_title">Мелодія за замовчуванням</string>
     <string name="alarm_alert">Мелодія</string>
     <string name="alarm_screen">Тема</string>
-    <string name="slider_text">Вимкнути</string>
-    <string name="snooze_confirm_cancel">Вимкнути</string>
     <string name="menu_item_sort_by_gmt_offset">Сортування за часом</string>
     <string name="menu_item_sort_by_name">Сортування за назвою</string>
+    <string name="birthday_alarm">Святкова мелодія</string>
+    <string name="birthday_alarm_summary">Грати мелодію \"З Днем народження\" замість стандартної у день свого народження</string>
+    <string name="turn_off_a_repeat_alarm">Вимкнути повтор будильнику</string>
+    <string name="skip_alarm_once_hint">Вимкнути цей будильник у %s</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
+    <string name="turn_off_this_repeat_alarm">Вимкнути повтор цього будильнику</string>
+    <string name="today">Сьогодні</string>
+    <string name="tomorrow">Завтра</string>
     <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
     <string name="elapsed_time_format">%s</string>
     <string name="app_label">Годинник</string>
@@ -98,7 +105,6 @@
     <string name="alarm_in_silent_mode_title">У режимі \"Без звуку\"</string>
     <string name="snooze_duration_title">Відкласти</string>
     <string name="auto_silence_title">Автовимкнення</string>
-    <string name="auto_silence_summary">Автоматичне вимкнення будильника через %d хв.</string>
     <string name="auto_silence_never">Вимкнено</string>
     <string name="done">Готово</string>
     <string name="revert">Скасувати</string>
@@ -110,15 +116,21 @@
     <string name="alarm_notify_snooze_label">Будильник: %s</string>
     <string name="volume_button_setting_title">Клавіші гучності</string>
     <string name="volume_button_setting_summary">Функція клавіш гучності під час спрацьовування будильника</string>
+    <string name="battery_charging_level">%d%%</string>
     <string name="menu_item_dock_settings">Налаштування док-станції</string>
     <string name="alarm_klaxon_service_desc">Служба відтворення сигналів в годиннику</string>
     <string name="loading_ringtone">Завантаження мелодії дзвінка...</string>
     <string name="control_set_alarm">Встановити будильник</string>
     <string name="control_set_alarm_with_existing">Будильник встановлено на %s</string>
+    <string name="auto_silence_summary">Автоматичне вимкнення будильника через %d хв.</string>
     <string name="menu_edit_systemtime">Налаштування дати і часу</string>
     <string name="snooze_message">Відкласти на %d хв.</string>
+    <string name="timer_message">Таймер на %1$d хв. і %2$d сек.</string>
     <string name="timer_message_with_hour">Таймер на %1$d г. і %2$d хв.</string>
     <string name="timer_message_with_seconds">%1$d сек.</string>
+    <string name="timer_message_00">%1$d хв. %2$d сек.</string>
+    <string name="timer_message_01">%1$d хв. і %2$d сек.</string>
+    <string name="timer_message_10">%1$d хв. і %2$d сек.</string>
     <string name="abbrev_wday_month_day_no_year">dMMMMEEE</string>
     <string name="add_time_zone">Додати часовий пояс</string>
     <string name="alarm_alert_dismiss_now_text">Вимкнути</string>
@@ -235,13 +247,9 @@
     <string name="timers_stopped">Таймерів зупинено: %d</string>
     <string name="volume_button_dialog_title">Встановити функцію клавіш гучності коли спрацьовує будильник</string>
     <string name="weather_fetch_failure">Інформація про погоду недоступна</string>
-    <string name="year_picker_description">Список років</string>
     <string name="zone_time_offset_ahead">%1$d г. %2$d хв. більше</string>
     <string name="zone_time_offset_ahead_only_hour">%d г. більше</string>
     <string name="zone_time_offset_behind">%1$d г. %2$d хв. менше</string>
     <string name="zone_time_offset_behind_only_hour">%d г. менше</string>
-	<string name="battery_charging_level">%d%%</string>
-	<string name="timer_item_picker_hour">Г</string>
-	<string name="birthday_alarm">Святкова мелодія</string>
-    <string name="birthday_alarm_summary">Грати мелодію \"З Днем народження\" замість стандартної у день свого народження</string>
+    <string name="year_picker_description">Список років</string>
 </resources>

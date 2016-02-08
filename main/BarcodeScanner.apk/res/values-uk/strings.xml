@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Сканер</string>
-	<string name="choose_picture">Обрати зображення з QR кодом</string>
     <string name="copy">Копіювати</string>
     <string name="name">"Ім'я:"</string>
     <string name="nickname">Нік:</string>
@@ -41,6 +40,7 @@
     <string name="import_contact">Імпорт контакту</string>
     <string name="secure_access_web_url">Відкрити сайт</string>
     <string name="not_recommend_access_web_url">Відкрити сайт (не рекомендується)</string>
+    <string name="continue_to_website">Відкрити сайт</string>
     <string name="continue_access_web_url">Відкрити сайт</string>
     <string name="download_by_browser">Завантажити через браузер</string>
     <string name="launch_market">Відкрити Mi Маркет</string>
@@ -79,5 +79,5 @@
     <string name="not_tips">"Запам'ятати"</string>
     <string name="settings">Налаштування</string>
     <string name="not_insert_contact">Не додавати контакт</string>
-	<string name="continue_to_website">Відкрити сайт</string>
+    <string name="choose_picture">Обрати зображення з QR кодом</string>
 </resources>

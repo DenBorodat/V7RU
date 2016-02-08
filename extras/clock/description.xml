@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="clock" size="2:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Clock</title>
+	<titles>
+		<title locale="zh_CN">时钟</title>
+		<title locale="zh_TW">時鐘</title>
+		<title locale="ru_RU">Часы</title>
+		<title locale="uk_UA">Годинник</title>
+	</titles>
+</MIUI-Theme>

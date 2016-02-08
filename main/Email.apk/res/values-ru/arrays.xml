@@ -33,6 +33,14 @@
         <item>\#</item>
         <item>∅</item>
     </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Вечером</item>
+        <item>Завтра</item>
+        <item>Выходные</item>
+        <item>Следующая неделя</item>
+        <item>Следующий месяц</item>
+        <item>Выбрать дату</item>
+    </string-array>
     <string-array name="compose_modes">
         <item>Ответить</item>
         <item>Ответить всем</item>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="status_bar_settings_disabled_header_title">
+        <item quantity="other">Приложений без уведомлений: %s</item>
+        <item quantity="one">Приложений без уведомлений: %s</item>
+    </plurals>
+    <plurals name="status_bar_settings_enabled_header_title">
+        <item quantity="other">Приложений с уведомлениями: %s</item>
+        <item quantity="one">Приложений с уведомлениями: %s</item>
+    </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Вы в %1$d шагах от становления разработчиком</item>
         <item quantity="one">Вы в %1$d шаге от становления разработчиком</item>

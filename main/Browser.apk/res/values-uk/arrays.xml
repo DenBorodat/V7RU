@@ -1,50 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="menu_theme_setting">
-        <item>Біла</item>
-        <item>Жовта</item>
-        <item>Чорна</item>
-     </string-array>
-    <string-array name="pref_homepage_choices">
-        <item>Головна сторінка</item>
-        <item>Встановити свою</item>
+    <string-array name="search_engines_rCN">
+        <item>baidu</item>
+        <item>google</item>
+        <item>dianping</item>
+        <item>bing</item>
     </string-array>
-    <string-array name="pref_ua_choices">
-        <item>Android</item>
-        <item>"Комп'ютер"</item>
-        <item>iPhone</item>
-        <item>iPad</item>
+    <string-array name="search_engines_default">
+        <item>google</item>
+        <item>dianping</item>
+        <item>bing</item>
     </string-array>
-    <string-array name="pref_volume_key_choices">
-        <item>Прокручування сторінки</item>
-        <item>Перемикання вкладок</item>
+    <string-array name="search_bar_search_engines_default">
+        <item>google</item>
+        <item>dianping</item>
+        <item>bing</item>
     </string-array>
-    <string-array name="pref_fling_on_border_choices">
-        <item>Перемикання сторінок</item>
-        <item>Перемикання вкладок</item>
-    </string-array>
-    <string-array name="pref_default_zoom_choices">
-        <item>Маленький</item>
-        <item>Середній</item>
-        <item>Великий</item>
-    </string-array>
-    <string-array name="pref_images_preload_choices">
-        <item>Ніколи</item>
-        <item>Тільки по Wi-Fi</item>
-        <item>Завжди</item>
-    </string-array>
-    <string-array name="pref_text_zoom_choices">
-        <item>Дрібний</item>
-        <item>Нормальний</item>
-        <item>Середній</item>
-        <item>Великий</item>
-        <item>Величезний</item>
-    </string-array>
-    <string-array name="pre_webapp_text_sizes">
-        <item>Великий</item>
-        <item>Середній</item>
-        <item>Нормальний</item>
-        <item>Дрібний</item>
+    <string-array name="sm">
+        <item>Яндекс</item>
+        <item>yandex.ru</item>
+        <item>http://yandex.ru/favicon.ico</item>
+        <item>http://yandex.ru/yandsearch?text={searchTerms}</item>
+        <item>UTF-8</item>
+        <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchTerms}</item>
     </string-array>
     <string-array name="google">
         <item>Google</item>
@@ -62,38 +40,49 @@
         <item>UTF-8</item>
         <item>http://suggest.yandex.net/suggest-ff.cgi?part={searchterms}</item>
     </string-array>
-    <string-array name="search_engines_rCN">
-        <item>baidu</item>
-        <item>google</item>
-        <item>dianping</item>
-        <item>bing</item>
-    </string-array>
-    <string-array name="search_engines_default">
-        <item>google</item>
-        <item>dianping</item>
-        <item>bing</item>
-    </string-array>
-    <string-array name="search_bar_search_engines_default">
-        <item>google</item>
-        <item>dianping</item>
-        <item>bing</item>
-    </string-array>
     <string-array name="dianping_in_list">
         <item>search_dianping</item>
         <item>ic_search_engine_dianping</item>
         <item>dianping</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>Біла</item>
+        <item>Жовта</item>
+        <item>Сіра</item>
+        <item>Коричева</item>
+        <item>Зелена</item>
+        <item>Синя</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>"Комп'ютер"</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Головна сторінка</item>
+        <item>Встановити свою</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>Дрібний</item>
+        <item>Нормальний</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Величезний</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>Телефон</item>
+        <item>Планшет</item>
     </string-array>
     <string-array name="pref_content_plugins_choices">
         <item>Так</item>
         <item>На вимогу</item>
         <item>Немає</item>
     </string-array>
-    <string-array name="pref_text_size_choices">
-        <item>Дрібний</item>
-        <item>Маленький</item>
-        <item>Середній</item>
-        <item>Великий</item>
-        <item>Величезний</item>
+    <string-array name="pref_data_preload_choices">
+        <item>Ніколи</item>
+        <item>Тільки по Wi-Fi</item>
+        <item>Завжди</item>
     </string-array>
     <string-array name="pref_default_text_encoding_choices">
         <item>Латинська (ISO-8859-1)</item>
@@ -105,7 +94,16 @@
         <item>Японська (EUC-JP)</item>
         <item>Корейська (EUC-KR)</item>
     </string-array>
-    <string-array name="pref_data_preload_choices">
+    <string-array name="pref_default_zoom_choices">
+        <item>Маленький</item>
+        <item>Середній</item>
+        <item>Великий</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_choices">
+        <item>Перемикання сторінок</item>
+        <item>Перемикання вкладок</item>
+    </string-array>
+    <string-array name="pref_images_preload_choices">
         <item>Ніколи</item>
         <item>Тільки по Wi-Fi</item>
         <item>Завжди</item>
@@ -120,20 +118,37 @@
         <item>Тільки по Wi-Fi</item>
         <item>Завжди</item>
     </string-array>
+    <string-array name="pref_text_size_choices">
+        <item>Дрібний</item>
+        <item>Маленький</item>
+        <item>Середній</item>
+        <item>Великий</item>
+        <item>Величезний</item>
+    </string-array>
+    <string-array name="pref_volume_key_choices">
+        <item>Прокручування сторінки</item>
+        <item>Перемикання вкладок</item>
+    </string-array>
+    <string-array name="pre_webapp_text_sizes">
+        <item>Великий</item>
+        <item>Середній</item>
+        <item>Нормальний</item>
+        <item>Дрібний</item>
+    </string-array>
     <string-array name="search_engines_rcn">
         <item>baidu</item>
         <item>google</item>
         <item>dianping</item>
         <item>bing</item>
     </string-array>
-	<string-array name="readmode_theme_fontsizenames">
-       <item>М</item>
-       <item>С</item>
-       <item>В</item>
+    <string-array name="readmode_theme_fontsizenames">
+        <item>М</item>
+        <item>С</item>
+        <item>В</item>
     </string-array>
     <string-array name="readmode_theme_names">
-       <item>Біла</item>
-       <item>Жовта</item>
-       <item>Чорна</item>
+        <item>Біла</item>
+        <item>Жовта</item>
+        <item>Чорна</item>
     </string-array>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск устройства</string>
+    <string name="find_device">Поиск устройства</string>
+    <string name="enable_find_device_success">Поиск устройства включен</string>
+    <string name="disable_find_device_success">Поиск устройства отключен</string>
+    <string name="enable_find_device_error">Ошибка включения поиска устройства. %1$s.</string>
+    <string name="disable_find_device_error">Ошибка отключения поиска устройства. %1$s.</string>
+    <string name="find_device_error_unknown">Неизвестная ошибка</string>
+    <string name="find_device_error_password_changed">Пароль аккаунта был изменен</string>
+    <string name="find_device_error_network">Проверьте параметры сети и повторите попытку</string>
+    <string name="find_device_error_server">Ошибка сервера</string>
+    <string name="find_device_error_account_sys_timeout">Ошибка подключения к Mi аккаунту</string>
+    <string name="find_device_stop_noise">Выключить</string>
+    <string name="find_device_noise_title">Звук поиска устройства</string>
+    <string name="find_device_success_title">Поиск устройства</string>
+    <string name="find_device_notice_p1">Посетите сайт</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">"для поиска, блокировки или восстановления вашего устройства.
+Если вы сменили SIM-карту, необходимо повторно активировать аккаунт по SMS."</string>
+    <string name="i_know">ОК</string>
+    <string name="activate_xiaomi_account">Активировать это устройства</string>
+    <string name="phone_locked">Это устройство привязано к существующему Mi аккаунту (%s). Требуется авторизация.</string>
+    <string name="password">Пароль</string>
+    <string name="captcha">Каптча</string>
+    <string name="stop_on_empty_password">Введите пароль</string>
+    <string name="stop_on_empty_captcha">Введите каптчу</string>
+    <string name="unlocking">Активация…</string>
+    <string name="unlock">Активировать</string>
+    <string name="verify_password_failed">Не удается проверить ID Mi аккаунта. %s.</string>
+    <string name="login_failed">Не удается войти</string>
+    <string name="change_find_device_status_failed">Не удается разблокировать. %s.</string>
+    <string name="unlock_error_network">Интернет недоступен</string>
+    <string name="unlock_error_device_id">Не удается получить ID устройства</string>
+    <string name="unlock_error_ssl_hand_shake">Не удается подключиться к серверу. Попробуйте настроить дату и время вручную.</string>
+    <string name="unlock_bad_authentication">Неверное имя пользователя или пароль</string>
+    <string name="unlock_error_server">Ошибка сервера</string>
+    <string name="unlock_access_denied">Доступ запрещен</string>
+    <string name="unlock_wrong_captcha">Введен неверный код</string>
+    <string name="unlock_error_unknown">Не удается войти</string>
+    <string name="unlock_error_user_name">Неверное имя пользователя</string>
+    <string name="unlock_error_interrupted">Прервано</string>
+    <string name="unlock_error_rpc">Ошибка RPC</string>
+    <string name="device_lost">Это устройство утеряно</string>
+    <string name="default_lock_msg_words_with_phone">Я потерял свой телефон! Пожалуйста, свяжитесь со мной.</string>
+    <string name="default_lock_msg_words">Я потерял свой телефон, свяжусь с вами позже.</string>
+    <string name="lock_msg_phone">Мои контакты: %s</string>
+</resources>

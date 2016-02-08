@@ -228,6 +228,9 @@
     <string name="permdesc_sendSmsNoConfirmation">Приложение может отправлять сообщения, не спрашивая Вас. Это может привести к денежным затратам.</string>
     <string name="web_sso_login_message">Авторизация…</string>
     <string name="web_sso_login_fail">Авторизуйтесь повторно</string>
+    <string name="no_network">Ошибка подключения к интернету</string>
+    <string name="webview_reload">Повтор</string>
+    <string name="hybrid_provider">Веб-страница представлена от %1$s</string>
     <string name="license_host_unreachable">Не удалось подключиться к сети. Чтобы посмотреть информацию, перейдите в %s.</string>
     <string name="loading">Загрузка…</string>
     <string name="mibi_license">Пользовательское соглашение Mi Credit</string>

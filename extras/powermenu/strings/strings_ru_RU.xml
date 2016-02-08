@@ -6,7 +6,7 @@
     <string name="label_shutdown">Выключение</string>
     <string name="label_alert_reboot">Перезагрузка</string>
     <string name="label_alert_shutdown">Нажмите для выключения</string>
-	<string name="label_alert_recovery">Recovery</string>
-    <string name="label_alert_bootloader">Bootloader</string>
+    <string name="label_alert_recovery">Recovery</string>
+    <string name="label_alert_bootloader">Быстро</string>
     <string name="label_blank">Назад</string>
 </resources>

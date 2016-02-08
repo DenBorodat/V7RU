@@ -40,10 +40,12 @@
         <item>30 хвилин</item>
     </string-array>
     <string-array name="entries_font_size">
-        <item>Дрібний</item>
-        <item>Нормальний</item>
-        <item>Середній</item>
-        <item>Великий</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Дуже повільна</item>
@@ -130,6 +132,14 @@
         <item>Включений при зарядці</item>
         <item>Виключений</item>
     </string-array>
+    <string-array name="data_usage_data_range">
+        <item>За останні 30 днів</item>
+        <item>Цикл використання даних</item>
+    </string-array>
+    <string-array name="sim_card_data_range">
+        <item>Останні 4 цифри</item>
+        <item>Перші 4 цифри</item>
+    </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Автоматично</item>
         <item>5 Ггц</item>
@@ -138,7 +148,7 @@
     <string-array name="usage_stats_display_order_types">
         <item>Час використання</item>
         <item>Кількість запусків</item>
-        <item>Назва додатка</item>
+        <item>Назва застосунка</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
         <item>Немає</item>
@@ -160,15 +170,6 @@
         <item>Немає</item>
         <item>Власноруч</item>
     </string-array>
-    <string-array name="emergency_tone_entries">
-        <item>Відключене</item>
-        <item>Сигнал</item>
-        <item>Вібрація</item>
-    </string-array>
-    <string-array name="special_locale_names">
-        <item>Китайський (спрощений)</item>
-        <item>Китайський (традиційний)</item>
-    </string-array>
     <string-array name="apn_auth_entries">
         <item>Немає</item>
         <item>PAP</item>
@@ -187,9 +188,14 @@
         <item>GID</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Внутрішня пам\'ять</item>
+        <item>"Внутрішня пам'ять"</item>
         <item>SD карта</item>
         <item>Автоматично</item>
+    </string-array>
+    <string-array name="app_ops_permissions">
+        <item>Дозволити</item>
+        <item>Ігнорувати</item>
+        <item>Запитувати</item>
     </string-array>
     <string-array name="app_ops_categories">
         <item>Місце розташування</item>
@@ -293,6 +299,13 @@
         <item>Середня</item>
         <item>Велика</item>
     </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>За замовчуванням</item>
+        <item>Без засічок</item>
+        <item>Без засічок, стиснутий</item>
+        <item>Із засічками</item>
+        <item>Моноширинний</item>
+    </string-array>
     <string-array name="captioning_font_size_selector_titles">
         <item>Дуже маленький</item>
         <item>Маленький</item>
@@ -312,15 +325,24 @@
         <item>Жовтий на синьому</item>
         <item>Користувацький</item>
     </string-array>
-    <string-array name="select_runtime_titles">
-        <item>Dalvik</item>
-        <item>ART</item>
-        <item>ART (debug)</item>
+    <string-array name="select_logd_size_titles">
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+        <item>4 Мб</item>
+        <item>16 Мб</item>
     </string-array>
-    <string-array name="select_runtime_summaries">
-        <item>Використовувати Dalvik</item>
-        <item>Використовувати ART</item>
-        <item>Використовувати налагоджувальний ART</item>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>Буфер: макс. 64 КБ</item>
+        <item>Буфер: макс. 256 КБ</item>
+        <item>Буфер: макс. 1 МБ</item>
+        <item>Буфер: макс. 4 МБ</item>
+        <item>Буфер: макс. 16 МБ</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>Ніколи не перевіряти</item>
@@ -434,6 +456,33 @@
         <item>низький</item>
         <item>критичний</item>
     </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Вимк.</item>
+        <item>Обмежена кількість переривань</item>
+        <item>Без переривань</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Нормальне</item>
+        <item>Помірне</item>
+        <item>Низьке</item>
+        <item>Високе</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Стабільне</item>
+        <item>Найбільщ часта дія</item>
+        <item>Важливе (активний режим)</item>
+        <item>Важливе (фоновий режим)</item>
+        <item>Резервне копіювання</item>
+        <item>Великий обсяг даних</item>
+        <item>Служба (працює)</item>
+        <item>Служба (перезапуск)</item>
+        <item>Отримувач</item>
+        <item>Головна</item>
+        <item>Остання дія</item>
+        <item>Кешовано (дія)</item>
+        <item>Кешовано (клієнт)</item>
+        <item>Кешовано (порожньо)</item>
+    </string-array>
     <string-array name="haptic_feedback_level_entries">
         <item>Сильний</item>
         <item>Середній</item>
@@ -487,12 +536,12 @@
         <item>Фіолетовий</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Недавні додатки</item>
+        <item>Нещодавні застосунки</item>
         <item>Показати меню</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
         <item>Немає дій</item>
-        <item>Нещодавні додатки</item>
+        <item>Нещодавні застосунки</item>
         <item>Голосовий помічник</item>
         <item>Запустити Google Now</item>
         <item>Закрити поточний додаток</item>
@@ -537,9 +586,9 @@
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_finish_summary">
-        <item>Якщо ви встановите цей драйвер, пам\'ять телефону з\'явиться на комп\'ютері</item>
-        <item>В Windows Vista або версіях вище, музичний програвач з\'явиться на вашому комп\'ютері автоматично.</item>
-        <item>Якщо ви встановите цей драйвер, комп\'ютер автоматично відкриє й прочитає пам\'ять телефону</item>
+        <item>"Якщо ви встановите цей драйвер, пам'ять телефону з'явиться на комп'ютері"</item>
+        <item>"В Windows Vista або версіях вище, музичний програвач з'явиться на вашому комп'ютері автоматично."</item>
+        <item>"Якщо ви встановите цей драйвер, комп'ютер автоматично відкриє й прочитає пам'ять телефону"</item>
         <item></item>
     </string-array>
     <string-array name="msd_pc_system_retry_xp">
@@ -583,6 +632,10 @@
         <item>Дозволити</item>
         <item>Заборонити</item>
     </string-array>
+    <string-array name="entries_color_calibration">
+        <item>sRGB</item>
+        <item>Стоковий</item>
+    </string-array>
     <string-array name="phone_call_noise_suppression_title">
         <item>Один мікрофон</item>
         <item>Два мікрофони</item>
@@ -597,6 +650,10 @@
         <item>Підключення автоматично</item>
         <item>Підключення власноруч</item>
         <item>Завжди запитувати</item>
+    </string-array>
+    <string-array name="wifi_ssid_type_entries">
+        <item>Підключатися автоматично</item>
+        <item>Підключатися власноруч</item>
     </string-array>
     <string-array name="slideshow_time_entries">
         <item>5 хвилин</item>
@@ -614,6 +671,7 @@
         <item>Галерея</item>
         <item>Музика</item>
         <item>Пошта</item>
+        <item>Відео</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Повільна швидкість через велике навантаження</item>
@@ -621,8 +679,8 @@
         <item>Переміщення…</item>
     </string-array>
     <string-array name="priority_storage_entries">
-        <item>Внутрішня пам\'ять</item>
-        <item>Зовнішня пам\'ять</item>
+        <item>"Внутрішня пам'ять"</item>
+        <item>"Зовнішня пам'ять"</item>
     </string-array>
     <string-array name="tts_rate_xunfei_entries">
         <item>Дуже повільно</item>
@@ -637,11 +695,6 @@
         <item>Середня</item>
         <item>Висока</item>
     </string-array>
-    <string-array name="handy_mode_size_text_entries">
-        <item>4.5 дюйми</item>
-        <item>4.0 дюйми</item>
-        <item>3.5 дюйми</item>
-    </string-array>
     <string-array name="agps_network_entries">
         <item>Домашня мережа</item>
         <item>Всі мережі</item>
@@ -651,50 +704,88 @@
         <item>ТЕПЛИЙ</item>
         <item>ХОЛОДНИЙ</item>
     </string-array>
+    <string-array name="handy_mode_size_text_entries">
+        <item>4.5 дюйми</item>
+        <item>4.0 дюйми</item>
+        <item>3.5 дюйми</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_values">
+        <item>0</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+        <item>900000</item>
+        <item>1800000</item>
+    </string-array>
+    <string-array name="lock_screen_secure_after_timeout_entries">
+        <item>одразу</item>
+        <item>через 1 хвилину</item>
+        <item>через 2 хвилини</item>
+        <item>через 5 хвилин</item>
+        <item>через 15 хвилин</item>
+        <item>через 30 хвилин</item>
+    </string-array>
+    <string-array name="fluency_mode_entries">
+        <item>Вимкнути системну анімацію</item>
+        <item>Увімкнути системну анімацію</item>
+    </string-array>
+    <string-array name="fluency_mode_summaries">
+        <item>Для підвищення продуктивності вимкніть системну анімацію</item>
+        <item>Системна анімація може вплинути на продуктивність пристрою</item>
+    </string-array>
+    <string-array name="fluency_mode_confirms">
+        <item>Перезавантажити пристрій для застосування налаштувань?</item>
+        <item>Перезавантажити пристрій для застосування налаштувань?</item>
+    </string-array>
+    <string-array name="screen_resolution_entries">
+        <item>Ультрависоке (2K)</item>
+        <item>Звичайне (720P)</item>
+    </string-array>
+    <string-array name="common_password_business_names">
+        <item>Екран блокування</item>
+        <item>Дитячий режим</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Щодня</item>
+        <item>По вихідних</item>
+        <item>Обрати дні</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Щодня</item>
+        <item>По вихідних</item>
+        <item>Обрати дні</item>
+    </string-array>
+    <string-array name="pink_panel_led_color_entries">
+        <item>Фіолетовий</item>
+        <item>Червоний</item>
+        <item>Жовтий</item>
+        <item>Зелений</item>
+        <item>Пурпурний</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Відключене</item>
+        <item>Сигнал</item>
+        <item>Вібрація</item>
+    </string-array>
     <string-array name="miracast_policies">
         <item>Продуктивність</item>
         <item>Баланс</item>
         <item>Якість</item>
     </string-array>
-	<string-array name="back_long_press_timeout">
-        <item>0,5 секунди</item>
-        <item>1 секунда</item>
-        <item>1,5 секунди</item>
-        <item>2 секунди</item>
-     </string-array>
-     <string-array name="captioning_typeface_selector_titles">
-        <item>За замовчуванням</item>
-        <item>Без засічок</item>
-        <item>Без засічок, стиснутий</item>
-        <item>Із засічками</item>
-        <item>Моноширинний</item>
-     </string-array>
-     <string-array name="entries_color_calibration">
-        <item>sRGB</item>
-        <item>Стоковий</item>
-     </string-array>
-     <string-array name="multi_sim_entries">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-     </string-array>
-     <string-array name="multi_sim_entries_voice">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-        <item>Підтвердження</item>
-     </string-array>
-     <string-array name="multi_sim_entries_voice_without_prompt">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-     </string-array>
-     <string-array name="multi_sim_summaries">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-     </string-array>
-     <string-array name="multi_sim_summaries_voice">
-        <item>SIM 1</item>
-        <item>SIM 2</item>
-        <item>Підтвердження користувача</item>
-     </string-array>
+    <string-array name="select_runtime_summaries">
+        <item>Використовувати Dalvik</item>
+        <item>Використовувати ART</item>
+        <item>Використовувати налагоджувальний ART</item>
+    </string-array>
+    <string-array name="select_runtime_titles">
+        <item>Dalvik</item>
+        <item>ART</item>
+        <item>ART (debug)</item>
+    </string-array>
+    <string-array name="special_locale_names">
+        <item>Китайський (спрощений)</item>
+        <item>Китайський (традиційний)</item>
+    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Запитувати дозвіл на встановлення</item>
         <item>Дозволити</item>
@@ -703,97 +794,38 @@
         <item>Запитувати</item>
         <item>Дозволити</item>
     </string-array>
-	<string-array name="lock_screen_secure_after_timeout_entries">
-        <item>одразу</item>
-        <item>через 1 хвилину</item>
-        <item>через 2 хвилини</item>
-        <item>через 5 хвилин</item>
-        <item>через 15 хвилин</item>
-        <item>через 30 хвилин</item>
+    <string-array name="back_long_press_timeout">
+        <item>0,5 секунди</item>
+        <item>1 секунда</item>
+        <item>1,5 секунди</item>
+        <item>2 секунди</item>
     </string-array>
-	<string-array name="fluency_mode_confirms">
-       <item>Перезавантажити пристрій для застосування налаштувань?</item>
-       <item>Перезавантажити пристрій для застосування налаштувань?</item>
+    <string-array name="multi_sim_entries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
-    <string-array name="fluency_mode_entries">
-       <item>Вимкнути системну анімацію</item>
-       <item>Увімкнути системну анімацію</item>
+    <string-array name="multi_sim_entries_voice">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Підтвердження</item>
     </string-array>
-    <string-array name="fluency_mode_summaries">
-       <item>Для підвищення продуктивності вимкніть системну анімацію</item>
-       <item>Системна анімація може вплинути на продуктивність пристрою</item>
+    <string-array name="multi_sim_entries_voice_without_prompt">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
-    <string-array name="lock_screen_secure_after_timeout_values">
-       <item>0</item>
-       <item>60000</item>
-       <item>120000</item>
-       <item>300000</item>
-       <item>900000</item>
-       <item>1800000</item>
+    <string-array name="multi_sim_summaries">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
     </string-array>
-    <string-array name="pink_panel_led_color_entries">
-       <item>Фіолетовий</item>
-       <item>Червоний</item>
-       <item>Жовтий</item>
-       <item>Зелений</item>
-       <item>Пурпурний</item>
+    <string-array name="multi_sim_summaries_voice">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+        <item>Підтвердження користувача</item>
     </string-array>
     <string-array name="primary_storage_entries">
-       <item>1-Вбудований розділ, 2-SD карта</item>
-       <item>1-SD карта, 2-Вбудований розділ</item>
-       <item>Тільки вбудований розділ</item>
-       <item>Тільки SD карта</item>
-    </string-array>
-	<string-array name="alarm_repeat_type">
-       <item>Щодня</item>
-       <item>По вихідних</item>
-       <item>Обрати дні</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-       <item>Щодня</item>
-       <item>По вихідних</item>
-       <item>Обрати дні</item>
-    </string-array>
-    <string-array name="data_usage_data_range">
-       <item>За останні 30 днів</item>
-       <item>Цикл використання даних</item>
-    </string-array>
-    <string-array name="entries_zen_mode">
-       <item>Вимк.</item>
-       <item>Обмежена кількість переривань</item>
-       <item>Без переривань</item>
-    </string-array>
-    <string-array name="proc_stats_memory_states">
-       <item>Нормальне</item>
-       <item>Помірне</item>
-       <item>Низьке</item>
-       <item>Високе</item>
-    </string-array>
-    <string-array name="proc_stats_process_states">
-       <item>Стабільне</item>
-       <item>Найбільщ часта дія</item>
-       <item>Важливе (активний режим)</item>
-       <item>Важливе (фоновий режим)</item>
-       <item>Резервне копіювання</item>
-       <item>Великий обсяг даних</item>
-       <item>Служба (працює)</item>
-       <item>Служба (перезапуск)</item>
-       <item>Отримувач</item>
-       <item>Головна</item>
-       <item>Остання дія</item>
-       <item>Кешовано (дія)</item>
-       <item>Кешовано (клієнт)</item>
-       <item>Кешовано (порожньо)</item>
-    </string-array>
-    <string-array name="screen_resolution_entries">
-       <item>Ультрависоке (2K)</item>
-       <item>Звичайне (720P)</item>
-    </string-array>
-    <string-array name="select_logd_size_summaries">
-       <item>Буфер: макс. 64 КБ</item>
-       <item>Буфер: макс. 256 КБ</item>
-       <item>Буфер: макс. 1 МБ</item>
-       <item>Буфер: макс. 4 МБ</item>
-       <item>Буфер: макс. 16 МБ</item>
+        <item>1-Вбудований розділ, 2-SD карта</item>
+        <item>1-SD карта, 2-Вбудований розділ</item>
+        <item>Тільки вбудований розділ</item>
+        <item>Тільки SD карта</item>
     </string-array>
 </resources>

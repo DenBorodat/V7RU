@@ -93,7 +93,13 @@
     <string name="resource_download_trial">Попробовать</string>
     <string name="resource_apply_trial">Попробовать</string>
     <string name="resource_on_trial">Триал: %1$s</string>
-    <string name="resource_trial_time">(до окончания %1$d мин.)</string>
+    <string name="resource_trial_days_hours">(триал на %1$d дн. %2$d ч.)</string>
+    <string name="resource_trial_hours_minutes">(триал на %1$d ч. %2$d мин.)</string>
+    <string name="resource_trial_minutes">(триал на %1$d мин.)</string>
+    <string name="resource_trial_hours">(триал на %1$d ч.)</string>
+    <string name="resource_trial_days">(триал на %1$d дн.)</string>
+    <string name="resource_trial_end_time">(триал до %1$s)</string>
+    <string name="resource_trial_end_time_format">hh:mm d MMM</string>
     <string name="resource_trial_fail_title">Ошибка влючения</string>
     <string name="resource_trial_fail_message">Убедитесь, что время системы установлено правельно</string>
     <string name="resource_trial_fail_cancel">ОК</string>
@@ -370,6 +376,7 @@
     <string name="theme_provision_loading_tips">Загрузка…</string>
     <string name="theme_provision_title">Выберите тему</string>
     <string name="theme_provision_default_theme_title">По умолчанию</string>
+    <string name="theme_provision_oper_button_next">Далее</string>
     <string name="theme_precast_create_notification_title">Темы MIUI 7 обновлены</string>
     <string name="theme_precast_create_notification_content">Нажмите для просмотра</string>
     <string name="theme_precast_update_notification_title">Обновление тем MIUI 7</string>
@@ -379,6 +386,7 @@
     <string name="maml_component_customization_title">Настройки компонентов</string>
     <string name="resource_get_auth_missing">Тема скачана не с официального маркета. Скачайте аналогичную тему из официального маркета.</string>
     <string name="resource_tip_select_ringtone">Мелодия не выбрана</string>
+    <string name="resource_trial_time">(до окончания %1$d мин.)</string>
     <string name="theme_batch_has_update_text">Обновление: %1$d</string>
     <string name="resource_unable_to_access">Содержимое, которое вы ищите, недоступно в вашей стране.</string>
     <string name="resource_select_ringtone_confirm">Установить эту мелодию?</string>

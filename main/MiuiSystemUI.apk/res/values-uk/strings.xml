@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
+    <string name="status_bar_date_formatter">%2$s</string>
     <string name="app_label">Сповіщення</string>
     <string name="status_bar_no_recent_apps">Немає нещодавніх застосунків</string>
+    <string name="battery_low_title">Підключіть зарядний пристрій</string>
     <string name="battery_low_percent_format">Залишилось %d%%</string>
     <string name="invalid_charger">"Зарядка по USB-порту не підтримується.
 Використовуйте зарядний пристрій з комплекту поставки"</string>
     <string name="status_bar_settings_airplane">Режим польоту</string>
+    <string name="status_bar_settings_battery_meter_format">%d%%</string>
     <string name="status_bar_network_name_separator">|</string>
     <string name="bluetooth_tethered">Спільний модем доступний через Bluetooth</string>
     <string name="usb_device_permission_prompt">Дозволити застосунку \"%1$s\" доступ до USB пристрою?</string>
@@ -30,7 +34,7 @@
     <string name="accessibility_back">Назад</string>
     <string name="accessibility_home">Головна сторінка</string>
     <string name="accessibility_menu">Меню</string>
-    <string name="accessibility_recent">Недавні застосунки</string>
+    <string name="accessibility_recent">Нещодавні застосунки</string>
     <string name="accessibility_search_light">Пошук</string>
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_bluetooth_connected">"Bluetooth-з'єднання встановлено"</string>
@@ -84,8 +88,15 @@
     <string name="gps_notification_found_text">Місцезнаходження знайдено</string>
     <string name="accessibility_clear_all">Видалити всі сповіщення</string>
     <string name="status_bar_notification_inspect_item_title">Про застосунок</string>
+    <string name="screen_pinning_title">Екран заблоковано</string>
+    <string name="screen_pinning_description">Екран буде заблоковано в одному положені. Натисніть та утримуйте клавішу \"Назад\" для розблокування.</string>
+    <string name="screen_pinning_description_accessible">Екран буде заблоковано в одному положені. Натисніть та утримуйте для розблокування.</string>
+    <string name="screen_pinning_positive">ОК</string>
+    <string name="screen_pinning_negative">Скасувати</string>
     <string name="status_bar_date_format">"EEEE
 d MMMM yyyy"</string>
+    <string name="oldman_status_bar_time_format_24">HH:mm</string>
+    <string name="oldman_status_bar_time_format_12">h:mm</string>
     <string name="status_bar_recent_guide_all">"Потягніть вгору для закриття
  вниз для блокування"</string>
     <string name="status_bar_recent_guide_top">Потягніть вгору для закриття</string>
@@ -112,6 +123,9 @@ d MMMM yyyy"</string>
     <string name="user_guide_for_notification">При отриманні нового сповіщення, можна розгорнути панель стану для отримання додаткових відомостей.</string>
     <string name="user_guide_for_toggle">Список перемикачів можна прокручувати по горизонталі.</string>
     <string name="user_guide_for_toggle_list">Натисніть, щоб налаштувати список перемикачів.</string>
+    <string name="activate_usb_title">Активувати USB</string>
+    <string name="activate_usb_message">Вставте SIM карту для активації функцій USB</string>
+    <string name="usb_function_charging_text">Подключно в режимі зарядки</string>
     <string name="return_to_incall_screen">Натисніть для повернення до розмови</string>
     <string name="call_status_dialing">Виклик</string>
     <string name="call_status_ringing">Виклик</string>
@@ -137,7 +151,7 @@ d MMMM yyyy"</string>
     <string name="torch_activity_hint">Ліхтарик можна швидко вимкнути, утримуючи [icon] на экрані блокування</string>
     <string name="torch_opened">Ліхтарик відкритий</string>
     <string name="torch_closed">Ліхтарик закритий</string>
-    <string name="lockscreen_carrier_default"> </string>
+    <string name="lockscreen_carrier_default" />
     <string name="chooseUsbActivity">Виберіть застосунок для пристроїв USB</string>
     <string name="usb_storage_title">Підключення USB</string>
     <string name="usb_storage_message">"Підключення до комп'ютеру через USB. Натисніть на кнопку нижче якщо ви бажаєте обмінюватися файлами між комп'ютером і накопичувачем вашого Android пристрою."</string>
@@ -149,7 +163,7 @@ d MMMM yyyy"</string>
     <string name="usb_storage_stop_title">USB накопичувач використовується</string>
     <string name="usb_storage_stop_message">"Перед тим як відключити USB накопичувач, переконайтеся, що безпечно вилучили Android USB накопичувач з вашого комп'ютера."</string>
     <string name="dlg_confirm_kill_storage_users_title">Увімкнути USB накопичувач</string>
-    <string name="dlg_confirm_kill_storage_users_text">При вимкнені режиму накопичувача деякі додатки будуть недоступні</string>
+    <string name="dlg_confirm_kill_storage_users_text">При вимкнені режиму накопичувача деякі застосунки будуть недоступні</string>
     <string name="dlg_error_title">USB операція невдала</string>
     <string name="dlg_ok">ОК</string>
     <string name="ext_media_checking_notification_title">Підготвування USB накопичувача</string>
@@ -167,13 +181,23 @@ d MMMM yyyy"</string>
     <string name="ext_media_mountable_notification_title">USB накопичувач підключено</string>
     <string name="ext_media_mountable_notification_message">Натисніть для перегляду</string>
     <string name="ext_media_safe_remove">Відключити</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
+    <string name="kilobyte_per_second">" К/с"</string>
+    <string name="megabyte_per_second">М/с</string>
     <string name="status_bar_network_flow_today">Сьогодні: %1$s</string>
-    <string name="status_bar_network_flow">Сьогодні: %1$s | Залишилось: %2$s | Всього: %3$s</string>
-    <string name="status_bar_network_flow_exceed">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Всього: %4$s</string>
-    <string name="status_bar_network_flow_exceed_to_purchase">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Оплата ></string>
-    <string name="status_bar_network_flow_warning_to_purchase">Сьогодні: %1$s | Перевищення: %2$s | Оплата ></string>
+    <string name="status_bar_network_flow_content">"Сьогодні: %1$s   Залишилось: %2$s"</string>
+    <string name="status_bar_network_flow_exceed_content">Сьогодні: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;План перевищено: &lt;font color=%2$s>%3$s&lt;/font></string>
+    <string name="status_bar_network_flow_purchase">"   Купівля >"</string>
+    <string name="status_bar_network_flow_limit">"   Щомісячний ліміт: %1$s"</string>
     <string name="drive_mode_tip">Ви знаходитись в автомобілі. Будь-ласка, будьте обережні за кермом при роботі з телефоном.</string>
     <string name="no_notification_tips">Немає сповіщень</string>
+    <string name="expanded_notification_manager">Керування сповіщеннями</string>
+    <string name="disable_notification_title">Блокування сповіщень</string>
+    <string name="disable_notification_summary">Не показувати сповіщення цього застосунка.</string>
+    <string name="expanded_confirm_disable_notification">ОК</string>
+    <string name="block_record_notification_title">Блокувати запис</string>
+    <string name="block_record_notification_text">%1$s. Натисніть для перегляду.</string>
+    <string name="block_record_notification_more_text">%1$s, застосунків: %2$d</string>
     <string name="notification_otg_mouse_in">Миша підключена</string>
     <string name="notification_otg_keyboard_in">Клавіатура підключена</string>
     <string name="notification_otg_gamestick_in">Ігровий контроллер підключено</string>
@@ -203,18 +227,34 @@ d MMMM yyyy"</string>
     <string name="headset_info">Налаштувати функції кнопок</string>
     <string name="headset_custom">Налаштувати</string>
     <string name="usb_share_net_info">"Використовувати інтернет комп'ютера"</string>
-    <string name="hint_for_long_press_app_switch_key">Утримуйте для входу в меню</string>
     <string name="battery_profiles">Режими батареї</string>
     <string name="oldman_airplane_mode_text">політ</string>
     <string name="oldman_incall_text">виклик</string>
+    <string name="notification_template_text">" має сповіщення. Перегляд."</string>
     <string name="audio_effect_settings">Тип гарнітури</string>
     <string name="audio_effect_info">Покращення звуку</string>
     <string name="audio_effect_custom">Налаштувати</string>
+    <string name="media_projection_dialog_text">%s буде захоплювати все, що відображається на вашому екрані.</string>
+    <string name="media_projection_remember_text">"Запам'ятати"</string>
+    <string name="media_projection_action_text">Почати</string>
+    <string name="vpn_title">Мережа VPN активна</string>
+    <string name="vpn_title_long">Підключення VPN через %s</string>
+    <string name="vpn_text">Натисніть для налаштування</string>
+    <string name="vpn_text_long">Підключено до %s. Натисніть для перегляду.</string>
+    <string name="screen_button_notification_title">Кнопки навігації вимкнені</string>
+    <string name="screen_button_notification_text">Для увімкнення натисніть кнопку \"Додому\" та \"Живлення\" одночасно</string>
+    <string name="task_access_locked_app_msg">Вміст застосунку приховано</string>
+    <string name="toast_rotation_locked">Екран заблоковано у ландшафтній орієнтації</string>
     <string name="battery_low_subtitle">Підключіть зарядний пристрій</string>
     <string name="battery_low_why">Статистика</string>
+    <string name="hint_for_long_press_app_switch_key">Утримуйте для входу в меню</string>
     <string name="screen_button_disabled_message">Клавіші навигації вимкнені. Ви можете вимкнути їх знову, натиснувши клавіші \"Додому\" + \"Живлення\".</string>
     <string name="screen_button_enabled_message">Клавіші навігації увімкнені</string>
     <string name="screen_rotation_freeze_message">Поворот екрану заблоковано</string>
+    <string name="status_bar_network_flow">Сьогодні: %1$s | Залишилось: %2$s | Всього: %3$s</string>
+    <string name="status_bar_network_flow_exceed">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Всього: %4$s</string>
+    <string name="status_bar_network_flow_exceed_to_purchase">Сьогодні: %1$s | Перевищення: &lt;font color=%2$s>%3$s&lt;/font> | Оплата ></string>
+    <string name="status_bar_network_flow_warning_to_purchase">Сьогодні: %1$s | Перевищення: %2$s | Оплата ></string>
     <string name="status_bar_recent_inspect_item_title">Про застосунок</string>
     <string name="status_bar_toggle_ac">Доступ</string>
     <string name="status_bar_toggle_auto_brightness">Підсвічування</string>
@@ -246,43 +286,4 @@ d MMMM yyyy"</string>
     <string name="status_bar_toggle_wifi_ap">Wi-Fi точка</string>
     <string name="status_sim_1">SIM 1</string>
     <string name="status_sim_2">SIM 2</string>
-	<string name="battery_low_title">Підключіть зарядний пристрій</string>
-    <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
-    <string name="oldman_status_bar_time_format_12">h:mm</string>
-    <string name="oldman_status_bar_time_format_24">HH:mm</string>
-    <string name="status_bar_date_formatter">%2$s</string>
-    <string name="status_bar_network_flow_content">"Сьогодні: %1$s   Залишилось: %2$s"</string>
-	<string name="status_bar_network_flow_exceed_content">Сьогодні: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;План перевищено: &lt;font color=%2$s>%3$s&lt;/font></string>
-	<string name="status_bar_network_flow_limit">"   Щомісячний ліміт: %1$s"</string>
-    <string name="status_bar_network_flow_purchase">"   Купівля >"</string>
-    <string name="status_bar_settings_battery_meter_format">%d%%</string>
-	<string name="disable_notification_summary">Не показувати сповіщення цього застосунка.</string>
-    <string name="disable_notification_title">Блокування сповіщень</string>
-    <string name="expanded_notification_manager">Керування сповіщеннями</string>
-    <string name="notification_template_text">" має сповіщення. Перегляд."</string>
-	<string name="activate_usb_message">Вставте SIM карту для активації функцій USB</string>
-    <string name="activate_usb_title">Активувати USB</string>
-    <string name="media_projection_action_text">Почати</string>
-    <string name="media_projection_dialog_text">%s буде захоплювати все, що відображається на вашому екрані.</string>
-    <string name="media_projection_remember_text">"Запам'ятати"</string>
-    <string name="screen_button_notification_text">Для увімкнення натисніть кнопку \"Додому\" та \"Живлення\" одночасно</string>
-    <string name="screen_button_notification_title">Кнопки навігації вимкнені</string>
-    <string name="usb_function_charging_text">Подключно в режимі зарядки</string>
-    <string name="vpn_text">Натисніть для настройки</string>
-    <string name="vpn_text_long">Підключено до %s. Натисніть для перегляду.</string>
-    <string name="vpn_title">Мережа VPN активна</string>
-    <string name="vpn_title_long">Підключення VPN через %s</string>
-	<string name="block_record_notification_more_text">%1$s, застосунків: %2$d</string>
-    <string name="block_record_notification_text">%1$s. Натисніть для перегляду.</string>
-    <string name="block_record_notification_title">Блокувати запис</string>
-    <string name="expanded_confirm_disable_notification">ОК</string>
-    <string name="kilobyte_per_second">" К/с"</string>
-    <string name="megabyte_per_second">М/с</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
-    <string name="toast_rotation_locked">Екран заблоковано у ландшафтній орієнтації</string>
-	<string name="screen_pinning_description">Екран буде заблоковано в одному положені. Натисніть та утримуйте клавішу \"Назад\" для розблокування.</string>
-    <string name="screen_pinning_description_accessible">Екран буде заблоковано в одному положені. Натисніть та утримуйте для розблокування.</string>
-    <string name="screen_pinning_negative">Скасувати</string>
-    <string name="screen_pinning_positive">ОК</string>
-    <string name="screen_pinning_title">Екран заблоковано</string>
 </resources>

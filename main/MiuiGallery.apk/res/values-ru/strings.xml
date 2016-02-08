@@ -268,8 +268,11 @@
     <string name="operation_unset_as_screensaver">Отменить заставку</string>
     <string name="operation_add_picture">Добавить</string>
     <string name="operation_add_secret">В секретный альбом</string>
+    <string name="operation_add_secret_button">В секретный альбом</string>
     <string name="operation_remove_secret">Убрать из альбома</string>
+    <string name="operation_remove_secret_button">Убрать из альбома</string>
     <string name="operation_remove_from_face_album">Переместить</string>
+    <string name="operation_remove_from_face_album_button">Переместить</string>
     <string name="operation_give_name">Имя</string>
     <string name="directory_info_divider">"  |  "</string>
     <string name="global_setting">Настройки</string>
@@ -469,6 +472,7 @@
     <string name="album_share_subtitle_quitting">Выход…</string>
     <string name="system_album">Системный альбом</string>
     <string name="owner_album_subtitle">Пользователей: %1$s</string>
+    <string name="baby_album_new_photo_remind">В детский альбом добавлены новые фото</string>
     <string name="album_quota_fulfiled">Не удалось создать альбом. Количество альбомов достигло предела.</string>
     <string name="image_quota_fulfiled">Не удается добавить изображение. Количество изображений в альбоме достигло предела.</string>
     <string name="sharer_quota_fulfiled">Невозможно добавить пользователя. Количество пользователей в этом альбоме достигло предела.</string>
@@ -477,6 +481,7 @@
     <string name="error_repeat_apply">Вы уже поделились альбомом</string>
     <string name="error_album_not_exist">Альбом не существует</string>
     <string name="error_invalid_link">Ссылка недействительна</string>
+    <string name="error_link_has_expired">Ссылка устарела</string>
     <string name="error_socket_timeout">Превышено время ожидания</string>
     <string name="error_share_with_creator">Вы уже являетесь участником этого альбома</string>
     <string name="error_share_not_support">Обмен облачными альбомами временно недоступен</string>
@@ -531,10 +536,10 @@
     <string name="delete_smb_file_fail">Ошибка удаления файла smb</string>
     <string name="new_device_tips">"Нажмите для
 просмотра устройства"</string>
-    <string name="home_page_tab_photo">Все</string>
-    <string name="home_page_tab_cloud">Облачные</string>
-    <string name="home_page_tab_local">Локальные</string>
-    <string name="home_page_tab_face">Лица</string>
+    <string name="home_page_tab_photo">Фото</string>
+    <string name="home_page_tab_cloud">Облако</string>
+    <string name="home_page_tab_local">Локально</string>
+    <string name="home_page_tab_face">Люди</string>
     <string name="error_title">Ошибка синхронизации</string>
     <string name="error_unauthorized">Ошибка синхронизации: слишком много попыток авторизации</string>
     <string name="error_forbidden">Синхронизация отключена из-за проблем с Mi аккаунтом</string>
@@ -549,6 +554,7 @@
     <string name="ubifocus_guide_text">Удерживайте для повторной фокусировки</string>
     <string name="priority_storage">Сохранение на SD-карту</string>
     <string name="priority_storage_summary">Автоматически сохранять файлы на SD-карту, когда она подключена</string>
+    <string name="app_name_edit_picture">Изменить фото</string>
     <string name="abandon">Отмена</string>
     <string name="paint_cancel_title">Отмена</string>
     <string name="paint_cancel_context">Отменить редактирование?</string>
@@ -565,12 +571,14 @@
     <string name="paint_brush">Кисть</string>
     <string name="script">Скрипт</string>
     <string name="mosaic">Мозаика</string>
-    <string name="impunity_declaration_title">Разрешить приложению доступ к интернету?</string>
-    <string name="impunity_declaration">При использовании облачных альбомов требуется доступ к интернету</string>
-    <string name="impunity_declaration_ignore">Запомнить</string>
+    <string name="impunity_declaration_title">Предупреждение</string>
+    <string name="impunity_declaration">Используя этот сервис, Вы соглашаетесь с %1$s и %2$s. Для нормальной работы требуется подключение к сети.</string>
+    <string name="impunity_declaration_ignore">Больше не спрашивать</string>
     <string name="impunity_declaration_positive_text">Продолжить</string>
     <string name="impunity_declaration_settings">Запрашивать доступ к интернету</string>
     <string name="impunity_declaration_summary">Запрос доступа к интернету при каждом запуске приложения</string>
+    <string name="user_agreement">" условия пользования"</string>
+    <string name="user_policy">политику конфиденциальности</string>
     <string name="face_album">Альбом с лицами</string>
     <string name="auto_upload_title">Автозагрузка альбомов</string>
     <string name="select_auto_upload_albums">Выберите альбомы для загрузки в Mi Cloud</string>
@@ -592,11 +600,19 @@
     <string name="start_to_use_face_albumset">Сортировать по людям</string>
     <string name="enabling_face_feature">Включение…</string>
     <string name="face_albumset_pending_enable_tip">Сортировка будет выполняться при подключении к сети Wi-Fi</string>
+    <string name="view_queuing_status">Проверить состояние</string>
+    <string name="calculated_pictures_time_tip_for_vip">Фото отсортированы с %1$s по настоящий момент. Остальные фото будут отсортированы в ближайшее время.</string>
+    <string name="calculated_pictures_time_tip_for_no_vip">Фото отсортированы с %1$s по настоящий момент. Остальные фото будут отсортированы постепенно.</string>
+    <string name="calculated_pictures_time_tip">Фото отсортированы с %1$s по настоящий момент. Остальные фото будут отсортированы постепенно. Чтобы ускорить процесс, %2$s</string>
+    <string name="buy_member_tip">станьте VIP участником.</string>
     <string name="face_albumset_loading_data">Загрузка…</string>
     <string name="face_album_not_named">Без названия</string>
     <string name="rename_face_album">Изменить имя</string>
     <string name="title_set_name">Ввести имя</string>
+    <string name="input_a_name">Введите имя</string>
+    <string name="input_or_select_a_name">Введите или выберите имя</string>
     <string name="rename_fail_msg">Не удалось изменить имя</string>
+    <string name="contact_tip">Контакты</string>
     <string name="confirm_merge_face_albums">" "<Data> Объединить этот альбом с альбомом %s? </Data>" "</string>
     <string name="confirm_merge_many_face_albums">" "<Data> Объединить с альбомом %s? </Data>" "</string>
     <string name="not_is">" Убрать "</string>
@@ -626,6 +642,11 @@
     <string name="change_to_photo_mode">Переключить в режим фото</string>
     <string name="create_baby_album_later_toast">Вы можете создать детский альбом позже</string>
     <string name="not_remind_any_more">Запомнить</string>
+    <string name="not_ask_any_more">Запомнить действие \"%s\"</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото будут перемещены в альбом \"%2$s\" после подтверждения. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Это &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото будут перемещены в альбом \"%2$s\" после подтверждения. </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data> Это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото будут перемещены в альбом \"%2$s\" после подтверждения. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data> Это не &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Фото будут перемещены в альбом \"%2$s\" после подтверждения. </Data>" "</string>
     <string name="finish_create_baby_album_toast">Альбом для \"%s\" создан в Mi Cloud</string>
     <string name="creating_baby_album">Создание альбома…</string>
     <string name="create_baby_album">Создать детский альбом</string>
@@ -718,18 +739,30 @@
     <string name="cancel_baby_lock_wallpaper_confirm_msg">Восстановить обои экрана блокировки по умолчанию?</string>
     <string name="baby_lock_wallpaper_cancelled">Обои экрана блокировки восстановлены по умолчанию</string>
     <string name="set_as_baby_lock_wallpaper">Установить на обои экрана блокировки</string>
+    <string name="edit_baby_info">Показать информацию</string>
+    <string name="view_baby_info">Изменить информацию</string>
     <string name="baby_album_sharers_page_title">Поделиться с семьями</string>
     <string name="set_bg_file_exist_message">Имя уже существует</string>
     <string name="set_bg_unknow_reasons">Неизвестная ошибка</string>
     <string name="set_bg_picker_default_title">Задать эскиз</string>
     <string name="set_baby_icon_picker_default_title">Установить иконку альбома</string>
+    <string name="baby_album_no_share_user_tip">Нет пользователей</string>
     <string name="more">Еще</string>
-    <string name="number_of_uploading_finish">Все фото и видео загружены в Mi Cloud</string>
+    <string name="number_of_uploading_finish">Все файлы загружены в Mi Cloud</string>
     <string name="need_to_turn_on_sync">Нажмите для включения Mi Cloud</string>
     <string name="need_to_turn_on_network">Необходимо подключиться к интернету</string>
     <string name="need_to_turn_on_wlan">Необходимо подключиться к сети Wi-Fi</string>
     <string name="sync_cloud_space_full">Mi Cloud заполнен</string>
+    <string name="sync_battery_low">Низкий заряд батареи</string>
+    <string name="cloud_full_tip_str">Память в Mi Cloud заполнена</string>
     <string name="hidden_album_display_name">Скрытый альбом</string>
+    <string name="byteShort">б</string>
+    <string name="kilobyteShort">Кб</string>
+    <string name="megabyteShort">Мб</string>
+    <string name="gigabyteShort">Гб</string>
+    <string name="terabyteShort">Тб</string>
+    <string name="petabyteShort">Пб</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="paint_crop_tips">Для получения лучшего эффекта попробуйте поместить интересующую часть фото в сетку</string>
     <string name="saturation_abbr">Н</string>
     <string name="highlight_abbr">Я</string>
@@ -787,14 +820,14 @@
     <string name="mipc_1">Карманная камера</string>
     <string name="auto_upload_tip">После включения этой функции будет создан альбом с тем же именем. Существующий альбом будет объединен с новым.</string>
     <string name="pick_with_limited_upper_bound_title">Вы можете выбрать %d фото</string>
-    <string name="merge_album_positive_button_text">ОК</string>
-    <string name="confirm_left_photo_will_move_out">%s отсутствует на остальных фото?</string>
-    <string name="confirm_all_photo_not_this_people_face">Все фото не относятся к %s?</string>
     <string name="highlight2">Яркость</string>
     <string name="confirm_left_photo_will_move_in">%s присутствует на остальных фото?</string>
     <string name="auto_upload_guide">Автоматически загружать фото из других приложений в Mi Cloud</string>
     <string name="auto_upload_setting_toast">Показать дополнительные функции этой возможности в настройках Mi Cloud?</string>
     <string name="new_feature">Новая возможность</string>
+    <string name="merge_album_positive_button_text">ОК</string>
+    <string name="confirm_left_photo_will_move_out">%s отсутствует на остальных фото?</string>
+    <string name="confirm_all_photo_not_this_people_face">Все фото не относятся к %s?</string>
     <string name="confirm_all_photo_are_this_people_face">Объединить с альбомом %s?</string>
     <string name="auto_upload_face">Автодобавление фото</string>
     <string name="auto_upload_face_summary">Автоматически сравнивать и добавлять фото в детский альбом</string>
